@@ -1,31 +1,50 @@
-// Creating map object
-var myMap = L.map("map", {
-  center: [40.7, -73.95],
-  zoom: 11
-});
+// Initialize all of the LayerGroups we'll be using
+var layers = {
+  neighborhoods: new L.LayerGroup(),
+  landmarks: new L.LayerGroup()
+};
 
 // Adding tile layer to the map
-L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
   tileSize: 512,
   maxZoom: 18,
   zoomOffset: -1,
   id: "mapbox/streets-v11",
   accessToken: API_KEY
-}).addTo(myMap);
+});
 
-// Store API query variables
-var baseURL = "https://data.cityofnewyork.us/resource/fhrw-4uyv.json?";
-var date = "$where=created_date between'2016-01-01T00:00:00' and '2017-01-01T00:00:00'";
-var complaint = "&complaint_type=Rodent";
-var limit = "&$limit=10000";
+ // Define a baseMaps object to hold our base layers
+var baseMaps = {
+  "Street Map" : streetmap
+};
+
+// Create overlay object to hold our overlay layer
+var overlayMaps = {
+  "Landmarks" : layers.landmarks,
+  "Neighborhoods" : layers.neighborhoods
+};
+
+// Creating map object
+var myMap = L.map("map", {
+  center: [41.8523, -87.6323],
+  zoom: 11,
+  Layers: [
+  streetmap,
+  landmarks,
+  neighborhoods
+  ]
+});
+
+// Add streetmap layer
+streetmap.addTo(myMap);
 
 // Assemble API query URL
-var url = baseURL + date + complaint + limit;
+var url = "https://data.cityofchicago.org/resource/tdab-kixi.json";
 
 // Grab the data with d3
-d3.json(url, function(response) {
-
+var landmarks = d3.json(url, function(response) {
+  console.log(response);
   // Create a new marker cluster group
   var markers = L.markerClusterGroup();
 
@@ -39,8 +58,8 @@ d3.json(url, function(response) {
     if (location) {
 
       // Add a new marker to the cluster group and bind a pop-up
-      markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
-        .bindPopup(response[i].descriptor));
+      markers.addLayer(L.marker([location.latitude, location.longitude])
+        .bindPopup(`<h3>Name: ${response[i].landmark_name}<br>Address: ${response[i].address}<br>Date Built: ${response[i].date_built}</h3>`));
     }
 
   }
@@ -49,3 +68,60 @@ d3.json(url, function(response) {
   myMap.addLayer(markers);
 
 });
+
+// Function that will determine the color of a neighborhood based on the borough it belongs to
+function chooseColor(){
+//Store available css classes
+var colors = ["red", "blue", "yellow", "navy", "orange", "green", "purple"];
+//Give a random number from 0 to 6
+var randomNumber = Math.floor(Math.random()*7);
+return colors[randomNumber];
+}
+
+
+var neighborhoods = d3.json("static/data/Boundaries-Neighborhoods.geojson", function(data){
+
+ L.geoJson(data, {
+    // Style each feature (in this case a neighborhood)
+    style: function(feature) {
+      return {
+        color: "white",
+        // Call the chooseColor function to decide which color to color our neighborhood (color based on borough)
+        fillColor: chooseColor(),
+        fillOpacity: 0.5,
+        weight: 1.5
+      };
+    },
+    // Called on each feature
+    onEachFeature: function(feature, layer) {
+      // Set mouse events to change map styling
+      layer.on({
+        // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 90% so that it stands out
+        mouseover: function(event) {
+          layer = event.target;
+          layer.setStyle({
+            fillOpacity: 0.9
+          });
+        },
+        // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
+        mouseout: function(event) {
+          layer = event.target;
+          layer.setStyle({
+            fillOpacity: 0.5
+          });
+        },
+        // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
+        click: function(event) {
+          myMap.fitBounds(event.target.getBounds());
+        }
+      });
+      // Giving each feature a pop-up with information pertinent to it
+      layer.bindPopup(`<h1>${feature.properties.pri_neigh}</h1>`);
+    }
+  }).addTo(myMap);
+});
+
+// Create layer control
+L.control.layers(baseMaps, overlayMaps, {
+  collapsed: false
+}).addTo(myMap);
