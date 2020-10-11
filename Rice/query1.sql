@@ -1,7 +1,7 @@
 create table chicago_df (
 	"name" text,
 	"address" text,
-	"year_installed" int,
+	"year_installed" text,
 	"artist" text,
 	"landmark_designation_date" text,
 	"latitude" float,
@@ -11,6 +11,7 @@ create table chicago_df (
 	"description_of_artwork" text
 	);
 	
-select * from chicago_df
+select * from chicago_df;
+
 
 
