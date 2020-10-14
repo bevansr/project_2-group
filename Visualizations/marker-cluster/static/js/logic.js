@@ -114,7 +114,7 @@ d3.json("static/data/Boundaries-Neighborhoods.geojson", function(data){
         }
       });
       // Giving each feature a pop-up with information pertinent to it
-      layer.bindPopup(`<h1>${feature.properties.pri_neigh}</h1>`);
+      layer.bindTooltip(`<h3>${feature.properties.pri_neigh}</h3>`);
     }
   }).addTo(neighborhoods);
 
