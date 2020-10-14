@@ -1,5 +1,5 @@
 // Initialize all of the LayerGroups we'll be using
-var markers = new L.LayerGroup();
+var landmarks = new L.LayerGroup();
 var neighborhoods = new L.LayerGroup();
 
 
@@ -20,7 +20,7 @@ var baseMaps = {
 
 // Create overlay object to hold our overlay layer
 var overlayMaps = {
-  "Landmarks" : markers,
+  "Landmarks" : landmarks,
   "Neighborhoods" : neighborhoods
 };
 
@@ -30,7 +30,7 @@ var myMap = L.map("map", {
   zoom: 11,
   Layers: [
   streetmap,
-  markers,
+  landmarks,
   neighborhoods
   ]
 });
@@ -58,13 +58,13 @@ d3.json(url, function(response) {
 
       // Add a new marker to the cluster group and bind a pop-up
       markers.addLayer(L.marker([location.latitude, location.longitude])
-        .bindPopup(`<h3>Name: ${response[i].landmark_name}<br>Address: ${response[i].address}<br>Date Built: ${response[i].date_built}</h3>`));
+        .bindPopup(`<h3>Name: ${response[i].landmark_name}<br>Address: ${response[i].address}<br>Date Built: ${response[i].date_built}</h3>`)).addTo(landmarks);
     }
 
   }
 
   // Add our marker cluster layer to the map
-  myMap.addLayer(markers);
+  landmarks.addTo(myMap);
 });
 
 // Function that will determine the color of a neighborhood based on the borough it belongs to
