@@ -1,5 +1,10 @@
 // histogram chart
-var dataPath = 'https://raw.githubusercontent.com/bevansr/project_2-group/Rice/Rice/ChicagoLandmarks2.csv'
+var dataPath = 'https://raw.githubusercontent.com/bevansr/project_2-group/Rice/Rice/ChicagoLandmarks2.csv';
+
+// var muralText =  d3.selectAll(".legendtext").text();
+// console.log(muralText);
+
+
 d3.csv(dataPath, function (data) {
   console.log("csv", data);
   var murals = data.filter(building => building.type === "Mural");
@@ -58,6 +63,7 @@ d3.csv(dataPath, function (data) {
   ];
 
   var layout1 = {
+    barmode: "stack",
     autosize: true,
     title: "Landmarks/Murals vs. Zipcode",
     xaxis: {
@@ -68,6 +74,8 @@ d3.csv(dataPath, function (data) {
 
   Plotly.newPlot('zipcode', data1, layout1);
 
+
+
   // plot the landmarks/murals vs. year installed
   var data2 = [
     {
@@ -75,14 +83,24 @@ d3.csv(dataPath, function (data) {
       x: landmarkInstallInt,
       y: 1,
       type: "histogram",
-      name: "Landmarks"
+      name: "Landmarks",
+      xbins: {
+        end: 1960, 
+        size: 5, 
+        start: 1800
+      }
     },
     {
       histfunc: "count",
       x: muralInstallInt,
       y: 1,
       type: "histogram",
-      name: "Murals"
+      name: "Murals",
+      xbins: {
+        end: 2020, 
+        size: 5, 
+        start: 1960
+      }
     }
   ];
 
@@ -92,10 +110,13 @@ d3.csv(dataPath, function (data) {
     xaxis: {
       title: "Year Installed", tickangle: -45,
       yaxis: { title: "Count" },
+      range: [1780, 2020]
     }
   };
 
   Plotly.newPlot('year_installed', data2, layout2);
+
+
 
 });
 
