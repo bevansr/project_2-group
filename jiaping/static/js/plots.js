@@ -108,15 +108,13 @@ d3.csv(dataPath, function (data) {
     autosize: true,
     title: "Landmarks/Murals vs. Year Installed",
     xaxis: {
-      title: "Year Installed", tickangle: -45,
+      title: "Year Installed",
       yaxis: { title: "Count" },
       range: [1780, 2020]
     }
   };
 
   Plotly.newPlot('year_installed', data2, layout2);
-
-
 
 });
 
