@@ -1,9 +1,9 @@
 create table chicago_df (
 	"name" text,
 	"address" text,
-	"year_installed" text,
+	"install_date" text,
+	"designation_date" text,
 	"artist" text,
-	"landmark_designation_date" text,
 	"latitude" float,
 	"longitude" float,
 	"zip_code" text,
