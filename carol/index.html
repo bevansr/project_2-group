@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Landmark Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1>Chicago Landmark & Mural Locations</h1>
+      <p></p>
+    </div>
+    <div class="container">
+      <div class="row margin-top-50">
+        <div class="col-md-2">
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading">Filter Search</div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="date">Year Installed</label>
+                        <input class="form-control" id="year_installed" type="text" placeholder="1910">
+                        <li class="filter list-group-item">
+                          <label for="date">Artist</label>
+                          <input class="form-control" id="artist" type="text" placeholder="Cobb & Frost">
+                          <li class="filter list-group-item"></li>
+                          <select type="search" id="selectedField" class="select-table-filter" data-table="order-table">
+                            <option value="All" selected>Type</option>  
+                            <option value="Landmark">Landmark</option>  
+                            <option value="Mural">Mural</option>  
+                          </select>
+                    </ul>
+                  </div>
+                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="col-md-10">
+          <div id="table-area" class="">
+            <table id="table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">Name</th>
+                  <th class="table-head">Address</th>
+                  <th class="table-head">Year Installed</th>
+                  <th class="table-head">Artist</th>
+                  <th class="table-head">Landmark Designation Date</th>
+                  <th class="table-head">Latitude</th>
+                  <th class="table-head">Longitude</th>
+                  <th class="table-head">Zip Code</th>
+                  <th class="table-head">Type</th>
+                  <th class="table-head">Description</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <span class="bottom"></span>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data2.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>
