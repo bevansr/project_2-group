@@ -1,8 +1,7 @@
 // Initialize all of the LayerGroups we'll be using
-var layers = {
-  neighborhoods: new L.LayerGroup(),
-  landmarks: new L.LayerGroup()
-};
+var markers = new L.LayerGroup();
+var neighborhoods = new L.LayerGroup();
+
 
 // Adding tile layer to the map
 var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
@@ -21,8 +20,8 @@ var baseMaps = {
 
 // Create overlay object to hold our overlay layer
 var overlayMaps = {
-  "Landmarks" : layers.landmarks,
-  "Neighborhoods" : layers.neighborhoods
+  "Landmarks" : markers,
+  "Neighborhoods" : neighborhoods
 };
 
 // Creating map object
@@ -31,7 +30,7 @@ var myMap = L.map("map", {
   zoom: 11,
   Layers: [
   streetmap,
-  landmarks,
+  markers,
   neighborhoods
   ]
 });
@@ -43,7 +42,7 @@ streetmap.addTo(myMap);
 var url = "https://data.cityofchicago.org/resource/tdab-kixi.json";
 
 // Grab the data with d3
-var landmarks = d3.json(url, function(response) {
+d3.json(url, function(response) {
   console.log(response);
   // Create a new marker cluster group
   var markers = L.markerClusterGroup();
@@ -66,7 +65,6 @@ var landmarks = d3.json(url, function(response) {
 
   // Add our marker cluster layer to the map
   myMap.addLayer(markers);
-
 });
 
 // Function that will determine the color of a neighborhood based on the borough it belongs to
@@ -79,7 +77,7 @@ return colors[randomNumber];
 }
 
 
-var neighborhoods = d3.json("static/data/Boundaries-Neighborhoods.geojson", function(data){
+d3.json("static/data/Boundaries-Neighborhoods.geojson", function(data){
 
  L.geoJson(data, {
     // Style each feature (in this case a neighborhood)
@@ -118,7 +116,9 @@ var neighborhoods = d3.json("static/data/Boundaries-Neighborhoods.geojson", func
       // Giving each feature a pop-up with information pertinent to it
       layer.bindPopup(`<h1>${feature.properties.pri_neigh}</h1>`);
     }
-  }).addTo(myMap);
+  }).addTo(neighborhoods);
+
+  neighborhoods.addTo(myMap);
 });
 
 // Create layer control
