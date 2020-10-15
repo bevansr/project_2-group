@@ -24,11 +24,10 @@ function filter() {
 
     var inputData = d3.select("#year_installed");
     var inputArtist = d3.select("#artist");
-   
-
+  
     var inputDataValue = inputData.property("value");
     var inputArtistValue = inputArtist.property("value");
-  
+
 
     if(inputDataValue !=""){
       filteredData = tableData.filter(j => j.year_installed === inputDataValue);
@@ -41,22 +40,36 @@ function filter() {
     table.html("");
 
     filteredData.forEach((data2) => {
-        var row = table.append("tr");
+        var row = table.append("tr");  
         Object.entries(data2).forEach(([key, value]) => {
             var cell1 = row.append("td");
             cell1.text(value);
         });
-      });
+      });   
+    }   
 
-  $("#selectedField").on("change",function(){
-    var selected = this.value;
+var selected = d3.select("#selectedField").on("change", getData);
 
-    if(selected != "All"){
-      rows.filter("[type="+selected+"]").show();
-      rows.not("[type="+selected+"]").hide();
-      }  else {
-      rows.show();
+function getData() {
+  d3.event.preventDefault();
+  var intputType = d3.select("#selectedField");
+        // Assign the value of the dropdown menu option to a variable
+  var inputTypeValue = intputType.property("value");
+     
+  if(inputTypeValue !=""){
+      filteredData = tableData.filter(j => j.type === inputTypeValue);
     }
-    });   
-
+    if(inputTypeValue !=""){
+      filteredData = tableData.filter(j => j.type === inputTypeValue);
+    }
+    var table = d3.select("tbody");
+    table.html("");
+    
+    filteredData.forEach((data2) => {
+        var row = table.append("tr");  
+        Object.entries(data2).forEach(([key, value]) => {
+            var cell1 = row.append("td");
+            cell1.text(value);
+        });
+      });   
 };
