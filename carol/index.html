@@ -24,26 +24,29 @@
     </div>
     <div class="container">
       <div class="row margin-top-50">
-        <div class="col-md-2">
-          <asidetop class="filters">
-            <div class="panel panel-default">
-              <div class="panel-heading">Filter Search</div>
-              <div class="panel-body">
+        <asidetop class="filters">
+          <div class="panel panel-default">
+            <div class="panel-heading">Filter Search</div>
+            <div class="panel-body">        
+        <div class="col-md-12">
                 <form>
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
-                        <label for="date">Year Installed</label>
-                        <input class="form-control" id="year_installed" type="text" placeholder="1910">
+                  <div class="col-md-4">
+                        <label for="data">Year Installed</label>
+                        <input class="form-control" id="year_installed" type="text" placeholder="Enter Year"></div>
                         <li class="filter list-group-item">
-                          <label for="date">Artist</label>
-                          <input class="form-control" id="artist" type="text" placeholder="Cobb & Frost">
-                          <li class="filter list-group-item"></li>
-                          <select type="search" id="selectedField" class="select-table-filter" data-table="order-table">
-                            <option value="All" selected>Type</option>  
-                            <option value="Landmark">Landmark</option>  
-                            <option value="Mural">Mural</option>  
-                          </select>
+                  <div class="col-md-4">
+                        <label for="artist">Artist</label>
+                        <input class="form-control" id="artist" type="text" placeholder="Enter Artist">
+                        <li class="filter list-group-item"></li>
+                  <div class="col-md-4">
+                        <select type="search" id="selectedField" class="select-table-filter" data-table="order-table">
+                          <option value="All" selected>Select Type</option>  
+                          <option value="Landmark">Landmark</option>  
+                          <option value="Mural">Mural</option>  
+                        </select>
                     </ul>
                   </div>
                   <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
