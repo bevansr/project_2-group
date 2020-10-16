@@ -38,13 +38,12 @@ body {
   background: #1b3146;
 }
 
+/* navbar */
 .navbar {
   padding: 5px;
   margin: 0;
   text-decoration-color: #006699;
 }
-
-
 
 /* This CSS styles the ufo icon in the navbar */
 .nav-ufo1 {
@@ -60,10 +59,42 @@ body {
   width: 35px;
 }
 
-
 /* Adding styles to the aside and filter form */
 .ufo-form {
   margin-top: 50px;
+}
+
+/* dashboard */
+/* top picture */
+.dash_top {
+  position: relative;
+  height: 550px;
+  padding: 20px;
+  margin: 0;
+  background: white;
+  background-image: url("../images/dash_top.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.dash_top h1 {
+  margin-top: 200px;
+  font-size: 4rem;
+  color: white;
+  font-weight: 10px;
+  font-weight: bold;
+  /* animation: subtitle 1s forwards linear; */
+}
+
+.dash p {
+  font-size: 22px;
+}
+
+/* footer */
+.dash_footer {
+  font-size: 12px;
+  color: gray;
 }
 
 .filters .panel-body {
@@ -74,6 +105,7 @@ body {
   margin-top: 10px;
 }
 
+/* search chart */
 select {
   display: block;
   width: 100%;
@@ -100,8 +132,10 @@ select {
   margin-top: 50px;
 }
 
-/* The styles for the parallax */
-.hero {
+/* analysis page */
+
+/* top picture */
+.analysis_top {
   position: relative;
   height: 550px;
   padding: 20px;
@@ -114,19 +148,7 @@ select {
   margin-bottom: 50px;
 }
 
-.dashboard {
-  position: relative;
-  height: 550px;
-  padding: 20px;
-  margin: 0;
-  background: white;
-  background-image: url("../images/dash_top.jpg");
-  background-attachment: fixed;
-  background-position: bottom center;
-  background-size: cover;
-}
-
-.hero h1 {
+.analysis_top h1 {
   margin-top: 200px;
   font-size: 4rem;
   color: white;
@@ -135,7 +157,7 @@ select {
   /* animation: subtitle 1s forwards linear; */
 }
 
-.hero p {
+.analysis_top p {
   font-size: 1.8rem;
   opacity: 0;
   color: white;
@@ -143,6 +165,7 @@ select {
   animation-delay: 1s;
 }
 
+/* text */
 .analysis h2 {
   margin-left: 150px;
   margin-right: 150px;
@@ -171,6 +194,15 @@ select {
   color:#005580;
 }
 
+.analysis_footer {
+  font-size: 12px;
+  color: gray;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+}
+
+/* browser default setting */
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -192,13 +224,7 @@ select {
   color: #8e979f;
 }
 
-/* dashboard top image */
-.dash_footer {
-  font-size: 12px;
-  color: gray;
-  /* text-align: right;
-  object-position: right; */
-}
+
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {

@@ -71,7 +71,9 @@ d3.csv(dataPath, function (data) {
     }
   };
 
-  Plotly.newPlot('zipcode', data1, layout1);
+  var config = {responsive: true}
+
+  Plotly.newPlot('zipcode', data1, layout1, config);
 
 
   // plot the landmarks/murals vs. year installed
@@ -112,7 +114,7 @@ d3.csv(dataPath, function (data) {
     }
   };
 
-  Plotly.newPlot('year_installed', data2, layout2);
+  Plotly.newPlot('year_installed', data2, layout2, config);
 
 });
 
