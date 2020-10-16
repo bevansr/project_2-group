@@ -58,7 +58,6 @@ body {
   bottom: 13px;
   left: 330px;
   width: 35px;
-  color: #000099;
 }
 
 
@@ -112,6 +111,7 @@ select {
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
+  margin-bottom: 50px;
 }
 
 .dashboard {
@@ -141,6 +141,34 @@ select {
   color: white;
   animation: subtitle 1s forwards linear;
   animation-delay: 1s;
+}
+
+.analysis h2 {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 35px;
+  color:#005580;
+  font-weight: bold;
+}
+
+.analysis h3 {
+  /* margin-top: 100px; */
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 25px;
+  color:#005580;
+  font-weight: bold;
+
+}
+.analysis li {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 18px;
+  color: #696969;
+}
+
+.analysis em {
+  color:#005580;
 }
 
 /* input placeholder color changes */

@@ -1,52 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Analysis</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/d3Style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Analysis</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/d3Style.css">
 </head>
+
 <body>
-    <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="../../index.html" style="color: #005580">Chicago Landmarks & Murals 
-              <img class="nav-ufo1" src="../images/landmark.png">
-              <img class="nav-ufo2" src="../images/mural.png">
-            </a>
-          </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link navtext_color" href="../../index.html" style="color: #005580">Home</a>
-            <a class="nav-item nav-link navtext_color" href="map.html" style="color: #005580">Map</a>
-            <a class="nav-item nav-link active" href="analysis.html" style="color: #005580">Analysis<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="chart.html" style = "display: inline; color: #005580">Search</a>
-          </div>
-        </div>
-      </nav>
-    <!-- navbar -->
-
-
-      <div class="hero text-center">
-        <h1>Chicago Landmarks & Murals Analysis</h1>
-        <p>Do you want to know how many murals and landmarks are there in your neighborhood? </p>
-        <p>Do you know how many landmarks were built in 1920s? </p>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../../index.html" style="color: #005580">Chicago Landmarks & Murals
+          <img class="nav-ufo1" src="../images/landmark.png">
+          <img class="nav-ufo2" src="../images/mural.png">
+        </a>
       </div>
-    <div id="zipcode"></div>
-    <div id="year_installed"></div>
-    
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link navtext_color" href="../../index.html" style="color: #005580">Home</a>
+        <a class="nav-item nav-link navtext_color" href="map.html" style="color: #005580">Map</a>
+        <a class="nav-item nav-link active" href="analysis.html" style="color: #005580">Analysis<span
+            class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="chart.html" style="display: inline; color: #005580">Search</a>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script> -->
-    
-    <!-- Load d3.js -->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="../js/analysis.js"></script>
+  <!-- text on the picture -->
+  <div class="hero text-center">
+    <h1>Chicago Landmarks & Murals Analysis</h1>
+    <p>Do you want to know how many murals and landmarks are there in your neighborhood? </p>
+    <p>Do you know how many landmarks were built in 1920s? </p>
+  </div>
+
+  <!-- zipcode plotly -->
+  
+  <div class = 'analysis'> <h2>Landmarks/Murals vs. Zipcode</h2> </div>
+  <div id="zipcode"></div>
+  <div class='analysis'>
+    </br>
+    <h3>How many landmarks and murals are there in Chicago?</h3>
+    <li><em>317</em> registered landmarks(Aug,2012) </li>
+    <li><em>356</em> registered murals(Sep, 2020) </li>
+    </br>
+    <h3>Most landmarks and murals are located: </h3>
+    <li>Landmarks: <em>IL60616</em> with 23 landmarks </li>
+    <li>Murals: <em>IL60622</em> with 43 murals</li>
+    </br>
+    <h3>Neighborhoods where there are only registered landmarks or murals: </h3>
+    <li>Neighborhoods with only landmarks: <em>10</em> neighborhoods, including IL60068, IL60436, IL60505, IL60604, IL60606, IL60631, IL60644, IL60655, IL60659, IL60661. </li>
+    <li>Neighborhoods with only murals: <em>5</em> neighborhoods, including IL60634, IL60638, IL60646, IL60652, IL60656, IL60699 </li>
+  </div>
+  </br>
+
+  </div>
+  <!-- year installed plotly -->
+</br>
+</br>
+</br>
+</br>
+  <div class = 'analysis'> <h2>Landmarks/Murals vs. Year Installed</h2> </div>
+  <div id="year_installed"></div>
+  <div class='analysis'>
+  </br>
+  <h3>The oldest registered landmark and mural are:</h3>
+  <li>Landmark: <em>Site of Fort Dearborn</em>, built in 1803.</li>
+  <li>Murals: <em>Unidos Para Triunfar(Together We Overcome)</em> and <em>Rompiendo Las Cadenas(Breaking the Chains)</em>, created in 1971.</li>
+  </br>
+  </br>
+  <h3>Most landmarks and murals were created:</h3>
+  <li><em>1892, 1928:</em> 12 registered landmarks were buit in 1892 and 13 registered landmarks were built in 1928.</li>
+  <li><em>2017, 2019:</em> 72 registered murals were created in 2017 and 69 registered murals were created in 2019.</li>
+  </br>
+  </div>
+
+
+
+  <!-- Load d3.js -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="../js/analysis.js"></script>
 </body>
+
 </html>

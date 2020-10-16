@@ -8,11 +8,18 @@ d3.csv(dataPath, function (data) {
   console.log(landmarks.length);
   console.log(murals.length);
   var muralZips = murals.map(mural => mural.zip_code);
+  
+  // muralZips = muralZips.filter(zipcode => typeof(zipcode) === )
   var landmarkZips = landmarks.map(landmark => landmark.zip_code);
+  landmarkZips[98] = '60644';
+  console.log(landmarkZips);
+  console.log(landmarkZips[98])
   var muralInstall = murals.map(mural => mural.install_date);
   var landmarkInstall = landmarks.map(landmark => landmark.install_date);
   var muralZipsInt = muralZips.map(zip => parseInt(zip));
   var landmarkZipsInt = landmarkZips.map(zip => parseInt(zip));
+  // get rid of nonstandard zipcode
+  landmarkZipsInt = landmarkZipsInt.filter(int => int < 70000);
   var muralInstallInt = muralInstall.map(year => parseInt(year));
   var landmarkInstallInt = landmarkInstall.map(year => parseInt(year));
 
@@ -77,7 +84,7 @@ d3.csv(dataPath, function (data) {
       name: "Landmarks",
       xbins: {
         end: 1960, 
-        size: 5, 
+        size: 1, 
         start: 1800
       }
     },
@@ -89,7 +96,7 @@ d3.csv(dataPath, function (data) {
       name: "Murals",
       xbins: {
         end: 2020, 
-        size: 5, 
+        size: 1, 
         start: 1960
       }
     }
