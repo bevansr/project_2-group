@@ -12,69 +12,54 @@
     <link rel="stylesheet" href="static/css/d3Style.css">
 </head>
 <body>
-    <nav class="navbar navbar-default">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Chicago Landmarks & Murals 
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html" style="color: #000099">Chicago Landmarks & Murals 
               <img class="nav-ufo1" src="static/images/landmark.png">
               <img class="nav-ufo2" src="static/images/mural.png">
             </a>
           </div>
         </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="static/html/map.html" style="color: #000099">Home</a>
+            <a class="nav-item nav-link" href="static/html/map.html" style="color: #000099">Map</a>
+            <a class="nav-item nav-link active" href="html/analysis.html" style="color: #000099">Analysis<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="html/chart.html" style = "display: inline; color: #000099">Search</a>
+          </div>
+        </div>
       </nav>
 
-      <nav class="navbar navbar-expand-lg navbar-light light-blue lighten-4 navbar-custom"> 
-        <a class="navbar-brand navbar-toggle.collapsed" style="background-color:#4baca4;margin-top:-.5em;margin-bottom:-.5em;margin-left:-.9em;padding:13.2px;" href='visualizations/landing.html'>Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plot
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visualizations/Max_Temperature.html">Max Temperature</a>
-                        <a class="dropdown-item" href="visualizations/Humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="visualizations/Cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="visualizations/Wind_Speed.html">Wind Speed</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Correlation
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visualizations/c_max_temperature.html">Max Temperature</a>
-                        <a class="dropdown-item" href="visualizations/c_humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="visualizations/c_cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="visualizations/c_wind_speed.html">Wind Speed</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="visualizations/comparision.html">Comparision</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="visualizations/data.html">Data</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-      <div class="hero text-center">
-        <h1>Chicago Landmarks & Murals Analysis</h1>
-        <p>Do you want to know how many murals and landmarks are there in your neighborhood? </p>
-        <p>Do you know how many landmarks were built in late 1990s? </p>
+      <div class="dashboard text-center">
       </div>
-    <div id="zipcode"></div>
-    <div id="year_installed"></div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 box-1" >
+                
+                <h1 class="title"></br>Landmarks</h1>
+                
+                <figure class="text-center">
+                    <img src="static/images/dash_mural.jpg" class="figure-img img-fluid rounded">
+                </figure>
+            </div>
+            <div class="col-lg-6 box-2">
+                <div class="single-post-content-wrapper p-3">
+                    <p>In general, the humidity ranges from 60% to 100% no matter what the lattitude is. Thus, there are no significant relationships between lattitude and cloudiness.</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
     
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script> -->
     
     <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="static/js/plots.js"></script>
+    <!-- <script src="../js/plots.js"></script> -->
 </body>
 </html>
