@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/d3Style.css">
+</head>
+<body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="../../index.html">Chicago Landmarks & Murals 
+              <img class="nav-ufo1" src="../images/landmark.png">
+              <img class="nav-ufo2" src="../images/mural.png">
+            </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="map.html">Map</a>
+            <a class="nav-item nav-link active" href="analysis.html">Analysis<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="chart.html" style = "display: inline;">Search</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="hero text-center">
+        <h1>Chicago Landmarks & Murals Analysis</h1>
+        <p>Do you want to know how many murals and landmarks are there in your neighborhood? </p>
+        <p>Do you know how many landmarks were built in late 1990s? </p>
+      </div>
+    <div id="zipcode"></div>
+    <div id="year_installed"></div>
+    
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script> -->
+    
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="../js/plots.js"></script>
+</body>
+</html>

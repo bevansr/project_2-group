@@ -1,10 +1,6 @@
 // histogram chart
 var dataPath = 'https://raw.githubusercontent.com/bevansr/project_2-group/Rice/Rice/ChicagoLandmarks2.csv';
 
-// var muralText =  d3.selectAll(".legendtext").text();
-// console.log(muralText);
-
-
 d3.csv(dataPath, function (data) {
   console.log("csv", data);
   var murals = data.filter(building => building.type === "Mural");
@@ -28,12 +24,6 @@ d3.csv(dataPath, function (data) {
   muralInstallInt = muralInstallInt.sort();
   landmarkInstallInt = landmarkInstallInt.sort();
 
-  // muralInstallInt.forEach(year => {
-  //   if (year < ) {
-
-  //   }
-  // });
-
   console.log("year", typeof (muralInstall[0]));
   console.log("murals", murals);
   console.log("landmarks", landmarks);
@@ -44,6 +34,8 @@ d3.csv(dataPath, function (data) {
   console.log("typeofyear", typeof (muralInstallInt[0]));
   console.log("typeofyear", muralInstallInt);
   console.log("sorted year", landmarkInstallInt);
+  console.log("intall year length", landmarkInstallInt.length)
+  console.log("without sort, year installed of landmarks",landmarkInstall)
 
   var data1 = [
     {
@@ -73,7 +65,6 @@ d3.csv(dataPath, function (data) {
   };
 
   Plotly.newPlot('zipcode', data1, layout1);
-
 
 
   // plot the landmarks/murals vs. year installed
