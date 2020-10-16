@@ -41,7 +41,10 @@ body {
 .navbar {
   padding: 5px;
   margin: 0;
+  text-decoration-color: #006699;
 }
+
+
 
 /* This CSS styles the ufo icon in the navbar */
 .nav-ufo1 {
@@ -117,7 +120,7 @@ select {
   padding: 20px;
   margin: 0;
   background: white;
-  background-image: url("../images/dash_mural.jpg");
+  background-image: url("../images/dash_top.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -161,6 +164,13 @@ select {
   color: #8e979f;
 }
 
+/* dashboard top image */
+.dash_footer {
+  font-size: 12px;
+  color: gray;
+  /* text-align: right;
+  object-position: right; */
+}
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
