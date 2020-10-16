@@ -55,12 +55,9 @@ body {
   bottom: 13px;
   left: 330px;
   width: 35px;
-  color: white;
+  color: #000099;
 }
 
-/* .topnav-right {
-  float: right;
-} */
 
 /* Adding styles to the aside and filter form */
 .ufo-form {
