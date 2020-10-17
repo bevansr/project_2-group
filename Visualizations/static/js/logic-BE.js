@@ -5,11 +5,11 @@ var neighborhoods = new L.LayerGroup();
 
 // custom marker icons
 var landmarkIcon = L.icon({
-  iconUrl: './static/images/icon_landmark.png',
+  iconUrl: '../images/icon_landmark.png',
   iconSize : [50,50],
 });
 var muralIcon = L.icon({
-    iconUrl : './static/images/icon_mural.png',
+    iconUrl : '../images/icon_mural.png',
     iconSize : [50,50],
 });
 var bearsIcon = L.icon({
@@ -55,7 +55,7 @@ var myMap = L.map("map", {
 streetmap.addTo(myMap);
 
 // Assemble API query URL
-var file = "./static/data/ChicagoLandmarks2.csv";
+var file = "../data/ChicagoLandmarks2.csv";
 
 // Grab the data with d3
 d3.csv(file, function(landmarkData) {
@@ -102,7 +102,7 @@ return colors[randomNumber];
 }
 
 
-d3.json("static/data/Boundaries-Neighborhoods.geojson", function(data){
+d3.json("../data/Boundaries-Neighborhoods.geojson", function(data){
 
  L.geoJson(data, {
     // Style each feature (in this case a neighborhood)
@@ -157,7 +157,7 @@ var legend = L.control({position: 'bottomright'});
 
     var div = L.DomUtil.create("div", "info legend");
         
-    div.innerHTML = '<h3>Legend</h3><br><img src="./static/images/icon_mural.png"><i>Murals</i><br><img src="./static/images/icon_landmark.png"><i>Landmarks</i>'
+    div.innerHTML = '<h3>Legend</h3><br><img src="../images/icon_mural.png"><i>Murals</i><br><img src="../images/icon_landmark.png"><i>Landmarks</i>'
    
     return div;
 

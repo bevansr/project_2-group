@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/d3Style.css">
+</head>
+<body>
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html" style="color: #005580">Chicago Landmarks & Murals 
+              <img class="nav-ufo1" src="static/images/icon_landmark.png">
+              <img class="nav-ufo2" src="static/images/icon_mural.png">
+            </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html" style="color: #005580">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="static/html/map.html" style="color: #005580">Map</a>
+            <a class="nav-item nav-link " href="static/html/analysis.html" style="color: #005580">Analysis</a>
+            <a class="nav-item nav-link" href="static/html/chart.html" style = "display: inline; color: #005580">Search</a>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar  -->
+
+      <div class="dash_top text-center" >
+        <h1>What do you know about Chicago Landmarks & Murals?</h1>
+      </div>
+
+      <div class="container dash">
+        <div class="row">
+            <!-- figure -->
+            <div class="col-lg-6 box-1" >
+                <h1 class="title" style="color: #005580"></br>Landmarks</h1>
+              </hr>
+                <figure class="text-center">
+                    <img src="static/images/dash_landmark.JPG" class="figure-img img-fluid rounded">
+                </figure>
+            </div>
+            <!-- paragraph -->
+            <div class="col-lg-6 box-2">
+                <div class="single-post-content-wrapper p-3">
+                </br></br></br></br>
+                    <p>Chicago Landmark is a designation by the Mayor and the City Council of Chicago for historic sites in Chicago, Illinois, United States.</p>
+                    <p>These sites are selected after meeting a combination of criteria, including historical, economic, architectural, artistic, cultural, and social values. </p>
+                    
+                </div>
+            </div>
+        </div> 
+        <div class="row">
+          <!-- figure -->
+          <div class="col-lg-6 box-1" >
+              <h1 class="title" style="color: #005580"></br>Murals</h1></hr>
+              <figure class="text-center">
+                  <img src="static/images/dash_mural.jpg" class="figure-img img-fluid rounded">
+              </figure>
+          </div>
+          <!-- paragraph -->
+          <div class="col-lg-6 box-2">
+              <div class="single-post-content-wrapper p-3">
+              </br></br></br></br>
+                <p>Spend some time walking around Chicago, and there's a good chance you'll see a mural or two. The city is dotted with public art, some well-known, much of it less so but often still a joy to happen on. </p>
+                <p>There are 356 registered murals in Chicago with a sea of themes including nature, religion, art, cartoons, sports, legacy etc.</p>
+              </div>
+          </div>
+      </div> 
+    </br>
+  </br>
+
+        <div>
+          <a class='dash_footer' style='font-size: 14px;'> Resources </a>
+          <li class='dash_footer'>List of Chicago Landmarks. Wikipedia</li>
+          <li class='dash_footer'>Mural artist Jeff Zimmerman and his not-quite-finished Marilyn Monroe mural at 633 N Michigan Ave. Santiago Covarrubias</li>
+          <li class='dash_footer'>The "Greetings from Chicago" is one of the city's most popular murals. Jay Gentile</li>
+          <li class='dash_footer'>Chicago mural must-sees: Check out these 12 great examples of the city’s public art scene. Mary Norkol  </li>
+
+        </div>
+  </div>
+
+
+    
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script> -->
+    
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</body>
+</html>

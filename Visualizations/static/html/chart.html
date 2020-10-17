@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Chart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="../css/stylecs.css">
+  <link rel="stylesheet" href="../css/d3Style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="text-align: right;">
+      <a class="navbar-brand" href="../../index.html" style="color: white;">Chicago Landmarks & Murals</a>
+        <img class="nav-ufo1" src="../images/icon_landmark.png"></img>
+        <img class="nav-ufo2" src="../images/icon_mural.png"></img>
+          <a class="nav-item nav-link active" href="../../index.html" style= "color: white" >Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="map.html" style="color: white;">Map</a>
+          <a class="nav-item nav-link" href="analysis.html" style="color: white;">Analysis</a>
+          <a class="nav-item nav-link" href="chart.html" style = "color: white">Search</a>
+     </div>
+  </nav>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1>Chicago Landmark & Mural Locations</h1>
+      <p></p>
+    </div>
+    <div class="container">
+      <div class="row margin-top-50">
+        <asidetop class="filters">
+          <div class="panel panel-default">
+            <div class="panel-heading">Filter Search</div>
+            <div class="panel-body">        
+        <div class="col-md-12">
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                  <div class="col-md-4">
+                        <label for="data">Year Installed</label>
+                        <input class="form-control" id="year_installed" type="text" placeholder="Enter Year">
+                        <li class="filter list-group-item">
+                  <div class="col-md-4">
+                        <label for="artist">Artist</label>
+                        <input class="form-control" id="artist" type="text" placeholder="Enter Artist">
+                        <li class="filter list-group-item"></li>
+                  <div class="col-md-4">
+                        <label for="artist">Type</label>
+                        <select type="search" id="selectedField" class="select-table-filter" data-table="order-table">
+                          <option value="All" selected>Select Type</option>  
+                          <option value="Landmark">Landmark</option>  
+                          <option value="Mural">Mural</option>  
+                        </select>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+              <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+            </div>
+          </aside>
+        </div>
+        <div class="col-md-10">
+          <div id="table-area" class="">
+            <table id="table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">Name</th>
+                  <th class="table-head">Address</th>
+                  <th class="table-head">Year Installed</th>
+                  <th class="table-head">Artist</th>
+                  <th class="table-head">Latitude</th>
+                  <th class="table-head">Longitude</th>
+                  <th class="table-head">Zip Code</th>
+                  <th class="table-head">Type</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <span class="bottom"></span>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="../js/datacs.js"></script>
+  <script src="../js/appcs.js"></script>
+</body>
+
+</html>
