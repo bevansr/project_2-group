@@ -1,0 +1,120 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+  height: 95vh;
+}
+
+
+.legend {
+  width : 160px;
+  color: black;
+  background-color: azure;
+  padding: 10px;
+
+}
+
+.legend i {
+  font-size : 14px;
+  vertical-align: middle;
+  line-height : 40px;
+  margin-left : 20px;
+  font-weight : bold;
+}
+
+.legend img {
+  width: 40px;
+  height: 40px;
+  float : left;
+}
+
+.legend h3 {
+  text-align: center;
+  font-size : 20px;
+  margin : 0px;
+  font-weight : bold;
+}
+
+.leaflet-tooltip h3 {
+  font-size : 20px;
+}
+
+.leaflet-popup h3 {
+  font-size : 14px;
+  font-weight : bold;
+}
+
+.navbar {
+  padding: 5px;
+  margin: 0;
+  height: 5vh;
+}
+
+/* This CSS styles the ufo icon in the navbar */
+.nav-ufo1 {
+  position: absolute;
+  bottom: 12px;
+  left: 290px;
+  width: 40px;
+}
+.nav-ufo2 {
+  position: absolute;
+  bottom: 7px;
+  left: 330px;
+  width: 40px;
+  color: #000099;
+}
+
+aside .panel {
+  margin-top : 50px;
+}
+
+aside .panel-heading {
+  margin-bottom : 10px;
+  font-size : 18px;
+  font-weight : bold;
+}
+
+#addLandmark-btn {
+  background-color: darkblue;
+  color : white;
+  font-weight : bold;
+}
+
+#addLandmark-btn:hover {
+  background-color: green;
+}
+
+#addLandmark li {
+  background-color: lightgray;
+}
+
+#addLandmark li input {
+background-color : #f8f9fa;
+}
+
+#addLandmark li label {
+  font-weight: bold;
+}
+
+.add-landmark .panel-heading {
+  color : darkblue;
+}
+
+.custom-landmark-list {
+  display : none;
+}
+
+.custom-landmark-list .panel-heading {
+  color : green;
+}
+
+#customLandmarkList .list-group-item {
+background-color: green;
+color : white;
+font-weight : bold;
+}
+
+
