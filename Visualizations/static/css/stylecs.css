@@ -38,11 +38,22 @@ body {
   background: #1b3146;
 }
 
+.bg-light {
+  background-color : #f8f9fa!important;
+}
+
 .navbar {
   padding: 5px;
   margin: 0;
   text-decoration-color: #006699;
 }
+
+.nav-item {
+  font-size : 16px;
+  margin-left : 15px;
+  vertical-align : middle;
+}
+
 .nav-ufo1 {
   position: absolute;
   bottom: 15px;
