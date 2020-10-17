@@ -1,6 +1,21 @@
-// Initialize all of the LayerGroups we'll be using
+//Initialize all of the LayerGroups we'll be using
+var markers = L.markerClusterGroup();
 var landmarks = new L.LayerGroup();
 var neighborhoods = new L.LayerGroup();
+
+// custom marker icons
+var landmarkIcon = L.icon({
+  iconUrl: './static/images/icon_landmark.png',
+  iconSize : [50,50],
+});
+var muralIcon = L.icon({
+    iconUrl : './static/images/icon_mural.png',
+    iconSize : [50,50],
+});
+var bearsIcon = L.icon({
+  iconUrl: 'https://soldierfield.net/sites/default/files/styles/upcomming_e/public/2020-05/Chicago%20Bears%20Logo%20Square_5.jpg?itok=QvPxYn2Z',
+  iconSize : [50,50],
+});
 
 
 // Adding tile layer to the map
@@ -35,36 +50,46 @@ var myMap = L.map("map", {
   ]
 });
 
+
 // Add streetmap layer
 streetmap.addTo(myMap);
 
 // Assemble API query URL
-var url = "https://data.cityofchicago.org/resource/tdab-kixi.json";
+var file = "./static/data/ChicagoLandmarks2.csv";
 
 // Grab the data with d3
-d3.json(url, function(response) {
-  console.log(response);
-  // Create a new marker cluster group
+d3.csv(file, function(landmarkData) {
+  console.log(landmarkData);
+
+  var chicagoLandmarks = landmarkData.filter(i => i.type === "Landmark");
+  var chicagoMurals = landmarkData.filter(i => i.type === "Mural");
+  console.log(chicagoLandmarks);
+  console.log(chicagoMurals);
+
   var markers = L.markerClusterGroup();
 
-  // Loop through data
-  for (var i = 0; i < response.length; i++) {
+  addMarkers(chicagoLandmarks, landmarks, landmarkIcon);
+  addMarkers(chicagoMurals, landmarks, muralIcon);
+
+  function addMarkers(data, layer, icon) {
+  // Loop through Landmark data and add to landmarks layer
+  for (var i = 0; i < data.length; i++) {
 
     // Set the data location property to a variable
-    var location = response[i].location;
+    var landmarkLatitude = data[i].latitude;
+    var landmarkLongitude = data[i].longitude;
 
     // Check for location property
-    if (location) {
 
       // Add a new marker to the cluster group and bind a pop-up
-      markers.addLayer(L.marker([location.latitude, location.longitude])
-        .bindPopup(`<h3>Name: ${response[i].landmark_name}<br>Address: ${response[i].address}<br>Date Built: ${response[i].date_built}</h3>`)).addTo(landmarks);
-    }
+      markers.addLayer(L.marker([landmarkLatitude, landmarkLongitude],{icon: icon})
+        .bindPopup(`<h3>Name: ${data[i].name}<br>Type: ${data[i].type}<br>Address: ${data[i].address}<br>Date Created: ${data[i].install_date}</h3>`)).addTo(layer);
+
 
   }
-
   // Add our marker cluster layer to the map
-  landmarks.addTo(myMap);
+  layer.addTo(myMap);
+}
 });
 
 // Function that will determine the color of a neighborhood based on the borough it belongs to
@@ -125,3 +150,19 @@ d3.json("static/data/Boundaries-Neighborhoods.geojson", function(data){
 L.control.layers(baseMaps, overlayMaps, {
   collapsed: false
 }).addTo(myMap);
+
+var legend = L.control({position: 'bottomright'});
+
+  legend.onAdd = function () {
+
+    var div = L.DomUtil.create("div", "info legend");
+        
+    div.innerHTML = '<h3>Legend</h3><br><img src="./static/images/icon_mural.png"><i>Murals</i><br><img src="./static/images/icon_landmark.png"><i>Landmarks</i>'
+   
+    return div;
+
+  }
+legend.addTo(myMap);
+
+//markers.addLayer(L.marker([41.86304, -87.61632],{icon: bearsIcon})
+//        .bindPopup('<h3>Name: Soldier Field</h3>')).addTo(landmarks);
