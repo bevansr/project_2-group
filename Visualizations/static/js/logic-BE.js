@@ -166,3 +166,59 @@ legend.addTo(myMap);
 
 //markers.addLayer(L.marker([41.86304, -87.61632],{icon: bearsIcon})
 //        .bindPopup('<h3>Name: Soldier Field</h3>')).addTo(landmarks);
+
+// Select the button and the form
+var button = d3.select("#addLandmark-btn");
+
+// Create event handler
+button.on("click", addCustomLandmark);
+
+// Add custom landmark to map
+function addCustomLandmark() {
+  // Prevent the page from refreshing
+  d3.event.preventDefault();
+
+  // Select the input element and get the raw HTML node
+  var nameInput = d3.select("#landmarkName");
+  var latInput = d3.select("#latitude");
+  var lonInput = d3.select("#longitude");
+  var iconInput = d3.select("#icon");
+
+  // Get the value property of each input element
+  var nameInputValue = nameInput.property("value");
+  var latInputValue = latInput.property("value");
+  var lonInputValue = lonInput.property("value");
+  var iconInputValue = iconInput.property("value");
+  
+
+  if (iconInputValue != "") {
+    // create marker icon
+    var customIcon = L.icon({
+      iconUrl: iconInputValue,
+      iconSize : [50,50],
+    });
+    markers.addLayer(L.marker([latInputValue, lonInputValue],{icon: customIcon})
+          .bindPopup(`<h3>Name: ${nameInputValue}</h3>`)).addTo(landmarks);
+  }
+
+  else if (nameInputValue === "Soldier Field") {
+    markers.addLayer(L.marker([latInputValue, lonInputValue],{icon: bearsIcon})
+          .bindPopup(`<h3>Name: ${nameInputValue}</h3>`)).addTo(landmarks);
+  } 
+
+  else {
+    markers.addLayer(L.marker([latInputValue, lonInputValue])
+    .bindPopup(`<h3>Name: ${nameInputValue}</h3>`)).addTo(landmarks);
+  }
+
+  // Create a list of added landmarks
+  var addedLandmarks = d3.select("#customLandmarkList");
+  
+  // Display the added landmarks block
+  d3.select(".custom-landmark-list").attr("style","display : block;");
+  // add custom landmark to list
+  addedLandmarks.append("li")
+  .classed("list-group-item", true)
+  .text(nameInputValue);
+
+}

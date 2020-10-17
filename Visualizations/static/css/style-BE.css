@@ -66,3 +66,55 @@ body {
   width: 40px;
   color: #000099;
 }
+
+aside .panel {
+  margin-top : 50px;
+}
+
+aside .panel-heading {
+  margin-bottom : 10px;
+  font-size : 18px;
+  font-weight : bold;
+}
+
+#addLandmark-btn {
+  background-color: darkblue;
+  color : white;
+  font-weight : bold;
+}
+
+#addLandmark-btn:hover {
+  background-color: green;
+}
+
+#addLandmark li {
+  background-color: lightgray;
+}
+
+#addLandmark li input {
+background-color : #f8f9fa;
+}
+
+#addLandmark li label {
+  font-weight: bold;
+}
+
+.add-landmark .panel-heading {
+  color : darkblue;
+}
+
+.custom-landmark-list {
+  display : none;
+}
+
+.custom-landmark-list .panel-heading {
+  color : green;
+}
+
+#customLandmarkList .list-group-item {
+background-color: green;
+color : white;
+font-weight : bold;
+}
+
+
