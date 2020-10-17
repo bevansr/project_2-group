@@ -164,8 +164,6 @@ var legend = L.control({position: 'bottomright'});
   }
 legend.addTo(myMap);
 
-//markers.addLayer(L.marker([41.86304, -87.61632],{icon: bearsIcon})
-//        .bindPopup('<h3>Name: Soldier Field</h3>')).addTo(landmarks);
 
 // Select the button and the form
 var button = d3.select("#addLandmark-btn");
@@ -173,7 +171,7 @@ var button = d3.select("#addLandmark-btn");
 // Create event handler
 button.on("click", addCustomLandmark);
 
-// Add custom landmark to map
+// Add custom landmark to map from user input
 function addCustomLandmark() {
   // Prevent the page from refreshing
   d3.event.preventDefault();
@@ -190,6 +188,7 @@ function addCustomLandmark() {
   var lonInputValue = lonInput.property("value");
   var iconInputValue = iconInput.property("value");
   
+  var selectLegend = d3.select(".legend");
 
   if (iconInputValue != "") {
     // create marker icon
@@ -199,11 +198,20 @@ function addCustomLandmark() {
     });
     markers.addLayer(L.marker([latInputValue, lonInputValue],{icon: customIcon})
           .bindPopup(`<h3>Name: ${nameInputValue}</h3>`)).addTo(landmarks);
+    
+    // Add to legend
+    selectLegend.append("div").attr("style","min-height : 3px;");
+    selectLegend.append("img").attr("src",`${iconInputValue}`);
+    selectLegend.append("i").text(`${nameInputValue}`).attr("style","font-size : 12px; color : green;");
   }
 
   else if (nameInputValue === "Soldier Field") {
     markers.addLayer(L.marker([latInputValue, lonInputValue],{icon: bearsIcon})
           .bindPopup(`<h3>Name: ${nameInputValue}</h3>`)).addTo(landmarks);
+  
+    selectLegend.append("div").attr("style","min-height : 3px;");
+    selectLegend.append("img").attr("src","https://soldierfield.net/sites/default/files/styles/upcomming_e/public/2020-05/Chicago%20Bears%20Logo%20Square_5.jpg?itok=QvPxYn2Z");
+    selectLegend.append("i").text(`${nameInputValue}`).attr("style","font-size : 12px; color : green;");
   } 
 
   else {
@@ -213,12 +221,14 @@ function addCustomLandmark() {
 
   // Create a list of added landmarks
   var addedLandmarks = d3.select("#customLandmarkList");
-  
-  // Display the added landmarks block
-  d3.select(".custom-landmark-list").attr("style","display : block;");
+ 
   // add custom landmark to list
   addedLandmarks.append("li")
   .classed("list-group-item", true)
   .text(nameInputValue);
+  
+  // Display the added landmarks block
+  d3.select(".custom-landmark-list").attr("style","display : block;");
 
+  
 }
