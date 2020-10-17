@@ -38,10 +38,25 @@ body {
   background: #1b3146;
 }
 
-
 .navbar {
   padding: 5px;
   margin: 0;
+}
+.nav-ufo1 {
+  position: absolute;
+  bottom: 15px;
+  left: 290px;
+  width: 35px;
+}
+.nav-ufo2 {
+  position: absolute;
+  bottom: 13px;
+  left: 330px;
+  width: 35px;
+}
+
+.ufo-form {
+  margin-top: 50px;
 }
 
 .filters .panel-body {
@@ -94,7 +109,7 @@ select {
   padding: 20px;
   margin: 0;
   background: ;
-  background-image: url("../images/Chicago-Skyline.jpg");
+  background-image: url("../images/Chicago-Skylinecs.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
