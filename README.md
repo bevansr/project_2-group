@@ -19,6 +19,7 @@ The goal of the project is to create a responsive and interactive plot to explor
 <img src="images/analysis_1.png" width="400">
 <img src="images/search.png" width="400">
 <img src="images/analysis_2.png" width="400">
+<img src="" width="400">
 </div>
 
 
