@@ -2,6 +2,12 @@
 
 var tableData = data2;
 
+tableData.forEach(value => {
+  value.latitude = Math.round(value.latitude*100)/100;
+  value.longitude = Math.round(value.longitude*100)/100;
+});
+console.log("tabledata", tableData);
+
 function tableBuild() {
   var table = d3.select("tbody");
   data2.forEach((data2) => {
