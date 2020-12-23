@@ -4482,17 +4482,7 @@ var data2 =[
     {
       name: "I Will...",
       address: "4730 North Sheridan Rd",
-      year_installed: "nan",
-      artist: "Tracy Van Duinen",
-      latitude: "41.96813738",
-      longitude: "-87.65495695",
-      zip_code: "60640",
-      type: "Mural"
-    },
-    {
-      name: "I Will...",
-      address: "4730 North Sheridan Rd",
-      year_installed: "nan",
+      year_installed: "Unknown",
       artist: "Tracy Van Duinen",
       latitude: "41.96813738",
       longitude: "-87.65495695",
@@ -4612,7 +4602,7 @@ var data2 =[
     {
       name: "63rd and Infinity",
       address: "833 West 63rd St",
-      year_installed: "nan",
+      year_installed: "Unknown",
       artist: "Max Sansing",
       latitude: "41.77962053",
       longitude: "-87.6461237",
@@ -5442,7 +5432,7 @@ var data2 =[
     {
       name: "Home of the Heart",
       address: "2801 South Ridgeway",
-      year_installed: "nan",
+      year_installed: "Unknown",
       artist: "REMED",
       latitude: "41.84057466",
       longitude: "-87.71820602",
