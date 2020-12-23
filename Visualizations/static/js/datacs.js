@@ -1312,7 +1312,7 @@ var data2 =[
     {
       name: "(Former) Engine Company 35; Truck 28",
       address: "1625 N Damen Av",
-      year_installed: "18;9",
+      year_installed: "1896",
       artist: "Board of Public Works; add: W. C. Zimmerman",
       latitude: "41.91123781",
       longitude: "-87.67714161",
