@@ -7,7 +7,6 @@
 
 The goal of the project is to analyze the installation and distributions of both murals and landmarks in Chicago to provide better tourism tools to explore Chicago.  The `D3.js`, `Plotly.js` `Leaflet` libraries was used to allow interaction in addition to `HTML`, `CSS`, `Bootstrap`, and `Javascript`.
 
-The goal of the project is to create a responsive and interactive plot to explore the correlation between health risk factors and demographics. The `Javascript-D3` library was used to create multiple and interactive scatterplots in addition to `HTML`, `CSS`, `Bootstrap`, and `Javascript`.
 
 * All the project files are contained in this repo.
 
