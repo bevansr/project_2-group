@@ -87,9 +87,9 @@ li.filter {
 select {
   display: block;
   width: 100%;
-  padding: 8px;
-  color: #8e979f;
-  outline: none;
+  height: 39px;
+  color: black !important;
+  border: none !important;
 }
 
 .table{
@@ -120,7 +120,6 @@ select {
   height: 350px;
   padding: 20px;
   margin: 0;
-  background: ;
   background-image: url("../images/Chicago-Skylinecs.jpg");
   background-attachment: fixed;
   background-position: bottom center;
