@@ -7,6 +7,8 @@ tableData.forEach(value => {
   value.longitude = Math.round(value.longitude*100)/100;
 });
 console.log("tabledata", tableData);
+console.log('soted');
+console.log(tableData.sort((a,b) => a.year_installed.localeCompare(b.year_installed))); 
 
 function tableBuild() {
   var table = d3.select("tbody");
