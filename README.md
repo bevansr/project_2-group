@@ -20,7 +20,7 @@ The goal of the project is to create a responsive and interactive plot to explor
 </div>
 
 ### Design Sketch
-![Screenshot](images/sketch.png "Screenshot")
+<img src="images/sketch.jpg">
 
 ## Instructions
 
