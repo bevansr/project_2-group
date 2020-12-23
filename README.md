@@ -15,7 +15,9 @@ The goal of the project is to create a responsive and interactive plot to explor
 ### Sample Webpage Screenshot
 
 
-![Screenshot](images/home.png =100x20 "Screenshot") 
+![Screenshot](images/home.png =100x20) 
+* test
+<img src="images/home.png" width="200">
 
 
 ## Instructions
