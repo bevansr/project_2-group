@@ -53,3 +53,8 @@ The goal of the project is to analyze the installation and distributions of both
 ### 3. Resources
 
 * Contains the `CSV`, `js`, `geojson` with raw data
+
+
+### 4. imagess
+
+* Contains the `gif`, `png`, `png` files showing the running webpage and our primary design sketch
