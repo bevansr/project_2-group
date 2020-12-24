@@ -48,11 +48,11 @@ The goal of the project is to analyze the installation and distributions of both
 
 * Contains the `docx` file for data cleaning instruction
 * Contains the `SQL` and `ipynb` files used for data cleaning 
-* Contains the 'ChicagoLandmarks2.csv' file with cleaned data
+* Contains the final `ChicagoLandmarks2.csv` file with cleaned data
 
 ### 3. Resources
 
-* Contains the `CSV`, `js`, `geojson` with raw data
+* Contains the `CSV`, `js`, `geojson` files with raw data
 
 
 ### 4. imagess
