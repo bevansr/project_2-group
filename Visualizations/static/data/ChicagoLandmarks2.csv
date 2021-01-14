@@ -1,5 +1,5 @@
 name,address,install_date,designation_date,artist,latitude,longitude,zip_code,type,description_of_artwork
-Vassar Swiss Underwear Company Building,2543 - 2545 W Diversey Av,,2008,Unknown,41.93162661,-87.6921001,60647,Landmark,None
+Vassar Swiss Underwear Company Building,2543 - 2545 W Diversey Av,1914,2008,Unknown,41.93162661,-87.6921001,60647,Landmark,None
 Mathilde Eliel House,4122 S Ellis Av,1886,1991,Adler & Sullivan,41.81925575,-87.602788,60653,Landmark,None
 Manhattan Building,431 S Dearborn St,1891,1978,William LeBaron Jenney,41.87606572,-87.62896445,60605,Landmark,None
 Machinery Hall at Illinois Institute of Technology,100 W 33rd St; Chicago; IL,1901,2004,Patton; Fisher & Miller,41.83516141,-87.62922122,60616,Landmark,None
@@ -7,10 +7,10 @@ Melissa Ann Elam House,4726 S Dr Martin Luther King Jr Dr,1903,1979,Henry L. New
 (Former) Pioneer Trust and Savings Bank Building,4000 W. North Ave.,1924,2012,Karl M. Vitzthum,41.91019211,-87.72661734,60639,Landmark,None
 DuPont-Whitehouse House,3558 S Artesian Av,1876,1996,Oscar Cobb & Co.,41.82858165,-87.68659368,60632,Landmark,None
 Montgomery Ward & Co. Catalog House,618 W Chicago Av,1907,2000,Richard E. Schmidt; Garden and Martin,41.89743687,-87.64369542,60654,Landmark,None
-Vorwaerts Turner Hall,2431 W. Roosevelt Rd,,2009,Unknown,41.86615181,-87.68724694,60608,Landmark,None
+Vorwaerts Turner Hall,2431 W. Roosevelt Rd,1896,2009,Unknown,41.86615181,-87.68724694,60608,Landmark,None
 City Hall-County Building,121 N LaSalle St / 118 N Clark St,1905,1982,Holabird and Roche,41.88384254,-87.63165528,60602,Landmark,None
 Illinois and Michigan Canal,S Fork of Chicago River at W Levee & W Fuller Sts,1845,1996,Unknown,41.84265823,-87.66461646,60601,Landmark,None
-Lake Shore & Michigan Southern Bridges (pair),Calumet River; N of 98th St & E of Chicago Skyway,,2007,Unknown,41.71968671,-87.54296094,60617,Landmark,None
+Lake Shore & Michigan Southern Bridges (pair),Calumet River; N of 98th St & E of Chicago Skyway,1912,2007,Unknown,41.71968671,-87.54296094,60617,Landmark,None
 (Former) Schlitz Brewery Tied-House@11400S.Front,11400 S. Front Ave.,1906,2011,Frommann and Jebsen,41.68712465,-87.61238874,60628,Landmark,None
 Haskell-Barker-Atwater Buildings,18-28 S Wabash Av,1875,1996,Wheelock & Thomas and John M. Van Osdel,41.88136175,-87.62665808,60616,Landmark,None
 Three Arts Club,1300 N Dearborn St,1914,1981,Holabird and Roche,41.90600702,-87.6304679,60610,Landmark,None
@@ -34,7 +34,7 @@ Frederick C. Robie House,5757 S Woodlawn Av,1909,1971,Frank Lloyd Wright,41.7899
 333 North Michigan Building,333 N Michigan Av,1928,1997,Holabird & Roche/Holabird & Root,41.88780778,-87.62420054,60601,Landmark,None
 Sears; Roebuck and Company Administration Building,3333 W Arthington St,1905,2002,Nimmons & Fellows and George C. Nimmons & Co.,41.86968209,-87.70963237,60624,Landmark,None
 Myron Bachman House,1244 W Carmen av,1948,1992,Bruce Goff,41.9748882,-87.66168184,60640,Landmark,None
-Pennsylania Bridge,S Branch Chgo River; 19th St; SE of Lumber St,,2007,Unknown,41.85565852,-87.63700354,60616,Landmark,None
+Pennsylania Bridge,S Branch Chgo River; 19th St; SE of Lumber St,1913,2007,Unknown,41.85565852,-87.63700354,60616,Landmark,None
 Chicago Varnish Company Building,33 W Kinzie St,1895,2001,Henry Ives Cobb,41.88899569,-87.62934802,60654,Landmark,None
 (Former) Engine Company 104; Truck 3,1401 S Michigan Av,1905,2003,Charles F. Hermann,41.86395764,-87.62361007,60605,Landmark,None
 James A. Sexton School,160 W Wendell St,1882,1978,Architect Unknown,41.90156831,-87.63384357,60610,Landmark,None
@@ -76,7 +76,7 @@ Keck-Gottschalk-Keck Apartments,5551 S University Av,1937,1994,George and Willia
 F. R. Schock House,5804 W Midway Park,1886,1999,Frederick Schock,41.88932169,-87.77022252,60644,Landmark,None
 John Raber House,5760 S LaFayette Av,1870,1996,Major Alterations; 1894;Thomas Wing,41.78921937,-87.62695294,60621,Landmark,None
 Bryn Mawr Apartment Hotel,5550 N Kenmore Av,1927,2002,Alexander L. Levy & William J. Klein,41.98331134,-87.65700296,60640,Landmark,None
-Charles N. Loucks House,3926 N Keeler,,2008,Unknown,41.95260359,-87.73287873,60641,Landmark,None
+Charles N. Loucks House,3926 N Keeler,1889,2008,Unknown,41.95260359,-87.73287873,60641,Landmark,None
 Edwin Colvin House,5940 N Sheridan Rd,1909,1994,George W. Maher,41.9903361,-87.65581666,60660,Landmark,None
 Northwestern University Settlement House,1400 W Augusta Blvd,1901,1993,Pond & Pond,41.90004273,-87.6628741,60642,Landmark,None
 Civic Opera Building,20 N Wacker Dr,1927,1998,Graham; Anderson; Probst & White,41.88253375,-87.637513,60606,Landmark,None
@@ -86,7 +86,7 @@ Majestic Building and Theater,22 W Monore St,1906,2005,Edmund R. Krause,41.88107
 Engine Company 5; Truck 2,324 S DesPlaines Av,1928,2003,Alfred S. Alschulter,41.87718066,-87.64430864,60436,Landmark,None
 John Wingert House,6231 N Canfield Av,1854,1990,Add. c. 1868-75 Architect Unknown,41.99430885,-87.82160659,60068,Landmark,None
 Richard Nickel Studio,1810 West Cortland St;,1889,2010,Unknown,41.91627982,-87.67324118,60622,Landmark,None
-Old Chicago Coast Guard Station,250 North Breakwater Access,,2007,Unknown,41.88764075,-87.61019755,60601,Landmark,None
+Old Chicago Coast Guard Station,250 North Breakwater Access,1933,2007,Unknown,41.88764075,-87.61019755,60601,Landmark,None
 Germania Club Building,108 W. Germania Place / 1538-1542 N. Clark St.,1889,2011,Addison and Fiedler,41.91061324,-87.63207758,60610,Landmark,None
 Laramie State Bank Building,5200 W Chicago Av,1927,1995,Meyer & Cook with Northwestern Terra Cotta Co.,41.89520776,-87.75583758,60651,Landmark,None
 Ida B. Wells-Barnett House,3624 S Dr Martin Luther King Jr Dr,1889,1995,Joseph A. Thain,41.82859199,-87.61773209,60616,Landmark,None
@@ -94,20 +94,20 @@ Clarence Buckingham Memorial Fountain and Garden,Grant Park at Congress Drive,19
 Farwell Building,664 N Michigan Ave,1927,2004,Philip B. Maher,41.89431494,-87.62462078,60611,Landmark,None
 Krause Music Store,4611 N Lincoln Av,1922,1977,William Presto ans Louis H. Sullivan,41.96533613,-87.68601082,60625,Landmark,None
 Biograph Theater,2433-43 N Lincoln Av,1914,2001,Samuel N. Corwen,41.92652071,-87.64975918,60614,Landmark,None
-Roanoke Building and Tower,11 S LaSalle St,,2007,Unknown,41.88170712,-87.63195358,60603,Landmark,None
+Roanoke Building and Tower,11 S LaSalle St,1915,2007,Unknown,41.88170712,-87.63195358,60603,Landmark,None
 Illinois-Indiana State Line Boundary Marker,Avenue G; near 103rd St,1838,2002,Office of the United States Surveyor-General,41.70886467,-87.52622269,60617,Landmark,None
-Veseman Building,444 N LaSalle St,,2007,Unknown,41.89047915,-87.63288949,60654,Landmark,None
-Charles Hitchcock House,5704 W Ohio St,1871,1992,Architect Unknown,41.8913214,-87.7680838,W,Landmark,None
+Veseman Building,444 N LaSalle St,1880,2007,Unknown,41.89047915,-87.63288949,60654,Landmark,None
+Charles Hitchcock House,5704 W Ohio St,1871,1992,Architect Unknown,41.8913214,-87.7680838,60515,Landmark,None
 K.A.M. Isaiah Israel Temple,1100 E Hyde Park Blvd,1924,1977,Alfred S. Alschuler,41.80282583,-87.59861639,60615,Landmark,None
-Site of the John & Mary Jones House,SW Corner of W 9th St & Plymouth Ct,,2004,Unknown,41.86979498,-87.62956097,60605,Landmark,None
-IBM Building,330 North Wabash Av,,2008,Unknown,41.88861449,-87.62750766,60611,Landmark,None
+Site of the John & Mary Jones House,SW Corner of W 9th St & Plymouth Ct,1855,2004,Unknown,41.86979498,-87.62956097,60605,Landmark,None
+IBM Building,330 North Wabash Av,1973,2008,Unknown,41.88861449,-87.62750766,60611,Landmark,None
 John Rath House,2703 W Logan Blvd,1907,1993,George W. Maher,41.92789833,-87.69530973,60647,Landmark,None
 Bush Temple of Music,100 W Chicago Av; Chicago; IL,1901,2001,J.E.O. Pridmore,41.89690293,-87.63166847,60654,Landmark,None
 Humboldt Park Boathouse Pavilion,1301 N Humboldt Blvd; Chicago; IL,1907,1996,Richard E. Schmidt;Garden & Martin w/ Jens Jenson,41.90562148,-87.70080444,60622,Landmark,None
-Milwaukee & St Paul Bridge,N Branch Chgo River; Cherry Av; S of North Ave,,2007,Unknown,41.91036873,-87.65552219,60604,Landmark,None
-Illinois Central Swing Bridge,San & Ship Canal; N of Stevenson Exp & E of Kedzie,,2007,Unknown,41.83242443,-87.70241367,60629,Landmark,None
+Milwaukee & St Paul Bridge,N Branch Chgo River; Cherry Av; S of North Ave,1930,2007,Unknown,41.91036873,-87.65552219,60604,Landmark,None
+Illinois Central Swing Bridge,San & Ship Canal; N of Stevenson Exp & E of Kedzie,1893,2007,Unknown,41.83242443,-87.70241367,60629,Landmark,None
 Brewster Apartments,2800 N Pine Grove Av,1893,1982,Enoch Hill Turnock,41.93316396,-87.64158298,60657,Landmark,None
-(Former) Belmont-Sheffield Trust & Savings Bldg,3150 N Sheffield Av,,2008,Unknown,41.93967875,-87.65444854,60657,Landmark,None
+(Former) Belmont-Sheffield Trust & Savings Bldg,3150 N Sheffield Av,1929,2008,Unknown,41.93967875,-87.65444854,60657,Landmark,None
 James Ward Public School,2703 S Shields Av,1874,2005,Johnson & Edelmann Add:1897;N. S. Patton,41.84319609,-87.63509231,60616,Landmark,None
 American System-Built Houses,10410 S Hoyne Av,1917,1994,Frank Lloyd Wright,41.70419675,-87.67464799,60643,Landmark,None
 Goldblatt Bros. Department Store,1613-1635 W Chicago av,1921,1998,Alfred S. Alshuler,41.89577179,-87.66827312,60622,Landmark,None
@@ -117,29 +117,29 @@ Chicago Board of Trade Building,141 W Jackson Blvd,1930,1977,Holabird & Root,41.
 Pittsfield Building,55 E Washington st,1927,2002,Graham; Anderson; Probst & White,41.88294695,-87.62571629,60602,Landmark,None
 Mundelein College Skyscraper Building,1020 W Sheridan Rd,1930,2006,Joseph W McCarthy,41.99867594,-87.65655162,60660,Landmark,None
 Marie Schock House,5749 W Race Av,1888,1999,Frederick Schock,41.88975861,-87.76971676,60644,Landmark,None
-(Former) Engine Company 42 Firehouse,228 W Illinois St,,2007,Unknown,41.8910068,-87.63528245,60654,Landmark,None
+(Former) Engine Company 42 Firehouse,228 W Illinois St,1887,2007,Unknown,41.8910068,-87.63528245,60654,Landmark,None
 Wood-Maxey-Boyd House,2801 S Prarie Av,1885,2003,John C. Cochrane,41.8432903,-87.61997676,60616,Landmark,None
-Chicago & Northwestern Bridge,N Branch Chgo River; S of Kinzie & E of Canal St,,2007,Unknown,41.88851006,-87.63909924,60654,Landmark,None
+Chicago & Northwestern Bridge,N Branch Chgo River; S of Kinzie & E of Canal St,1907,2007,Unknown,41.88851006,-87.63909924,60654,Landmark,None
 Peoples Gas-Irving Park Neighborhood Store,4829 W Irving Park Rd,1926,1987,George Grant Elmslie & Herman V. von Holst,41.95309429,-87.74890384,60641,Landmark,None
 Francis J. Dewes House,503 W Wrightwood Av,1896,1974,Adolph Cudell & Arthur Hercz,41.93034077,-87.64157423,60614,Landmark,None
 Dearborn Street Station,47 W Polk St,1885,1982,Cyrus L. W. Eidlitz,41.87174055,-87.62910493,60605,Landmark,None
 Wrigley Building,400-410 North Michigan Avenue,1921,2012,Graham; Anderson; Probst and White,41.88972563,-87.62485292,60611,Landmark,None
 St. Gelasius Church Building,6401-09 S Woodlawn Ave,1923,2004,Henry J. Schlacks,41.77835168,-87.59576093,60637,Landmark,None
-(Former) Calumet National Bank Bldg,9117 S Commercial Av,,2008,Unknown,41.72951124,-87.55084594,60617,Landmark,None
+(Former) Calumet National Bank Bldg,9117 S Commercial Av,1910,2008,Unknown,41.72951124,-87.55084594,60617,Landmark,None
 White Castle # 16,43 East Cermak Road,1930,2011,Lewis E. Russell,41.85263792,-87.62532982,60616,Landmark,None
 Old Republic Building,307 N. Michigan Ave,1924,2010,K. M. Vitzthum and Company,41.88708645,-87.62418141,60601,Landmark,None
 Trustees System Service Building,201 N Wells St,1929,2004,Thielbard & Fugard w/ Eugene&Gwen Lux;Edgar Miller,41.88604619,-87.63363399,60606,Landmark,None
 Wrigley Field,1060 W Addison St,1914,2004,Zachary T. & Charles G. Davis,41.94814483,-87.65554259,60613,Landmark,None
-(Former) Engine Company 35; Truck 28,1625 N Damen Av,18;9,2003,Board of Public Works; add: W. C. Zimmerman,41.91123781,-87.67714161,60647,Landmark,None
+(Former) Engine Company 35; Truck 28,1625 N Damen Av,1895,2003,Board of Public Works; add: W. C. Zimmerman,41.91123781,-87.67714161,60647,Landmark,None
 Allerton Hotel,701 N Michigan Av,1922,1998,Murgatroyd & Ogden with Fugard & Knapp,41.89520098,-87.62371376,60611,Landmark,None
-Chicago & Illinois Western Bridge,Collateral Channel Water Lot D;33rd;E of Kedzie,,2007,Unknown,41.83403328,-87.70194285,60632,Landmark,None
+Chicago & Illinois Western Bridge,Collateral Channel Water Lot D;33rd;E of Kedzie,1914,2007,Unknown,41.83403328,-87.70194285,60632,Landmark,None
 Robert W. Roloson Houses,3213-19 S Calumet Av,1894,1979,Frank Lloyd Wright,41.83605095,-87.61786831,60616,Landmark,None
 Engine Company 65; Truck 52,3000 W. 42nd St; Chicago; IL,1929,2003,Paul Gerhardt; Jr.,41.80373386,-87.73535704,60632,Landmark,None
 Chicago Building,7 W Madison St,1905,1996,Holabird & Roche,41.88184956,-87.62817297,60602,Landmark,None
 American System-Built Houses,10541 S Hoyne Av,1917,1994,Frank Lloyd Wright,41.7015922,-87.67382636,60643,Landmark,None
-Continental And Commercial National Bank Building,208 South LaSalle St,,2007,Unknown,41.87907898,-87.63301185,60604,Landmark,None
+Continental And Commercial National Bank Building,208 South LaSalle St,1911,2007,Unknown,41.87907898,-87.63301185,60604,Landmark,None
 Blackstone Library,4904 S. Lake Park Ave,1904,2011,Solon Spencer Beman,41.80582879,-87.59030595,60615,Landmark,None
-Home Bank & Trust Company,1200-08 N Ashland Av / 1600-12 W Division St,,2008,Karl M. Vitzthum,41.9036108,-87.66796079,60622,Landmark,None
+Home Bank & Trust Company,1200-08 N Ashland Av / 1600-12 W Division St,1904,2008,Karl M. Vitzthum,41.9036108,-87.66796079,60622,Landmark,None
 Metropolitan Missionary Baptist Church,2151 W Washington Blvd,1901,1989,Hugh M.G. Garden,41.88280034,-87.68124236,60612,Landmark,None
 Noble-Seymour-Crippen House,5624 N Newark Av,1833,1988,addit 1863; Architects Unknown,41.98361513,-87.79584731,60631,Landmark,None
 Roberts Temple Church of God in Christ Building,4021 S State St,1922,2006,Edward G. McClellan add:1927;unknown;remod:1992-93,41.82120993,-87.62591133,60609,Landmark,None
@@ -158,7 +158,7 @@ Auditorium Building,430 S Michigan Av,1886,1976,Adler & Sullivan,41.87603942,-87
 New Regal Theater,1641 E 79th st,1927,1992,John Eberson,41.75124738,-87.5835097,60649,Landmark,None
 Engine Company 78,1052 W Waveland Av,1915,2003,Charles W. Kallal,41.94930082,-87.65656809,60613,Landmark,None
 King-Nash House,3234 W Washington Blvd,1901,1988,George W. Maher,41.88305494,-87.70759499,60624,Landmark,None
-(Former) Swedish American State Bank Bldg,5400 N Clark St,,2008,Unknown,41.97997886,-87.66855143,60640,Landmark,None
+(Former) Swedish American State Bank Bldg,5400 N Clark St,1913,2008,Unknown,41.97997886,-87.66855143,60640,Landmark,None
 Stephen Race House,3945 N Tripp Av,1874,1988,Architect Unknown,41.95310186,-87.73367075,60641,Landmark,None
 Pate-Comiskey House,5131 S Michigan Av,1901,2003,George Maher,41.80101655,-87.62214969,60615,Landmark,None
 Heald Square Monument,Wacker Dr at Wabash Av,1936,1971,Lorado Taft & Leonrd Crunelle; Sculptors,41.88700528,-87.62692807,60601,Landmark,None
@@ -167,7 +167,7 @@ Yale Apartments,6565 S Yale Av; Chicago; IL,1892,2003,John T. Long,41.77470411,-
 Carl Schurz High School,3601 N Milwaukee Av,1910,1979,Dwight H. Perkins,41.9472703,-87.73563931,60641,Landmark,None
 Gage Group,18;24; and 30 S Michigan Av,1899,1996,Louis H. Sullivan (18);Holabird & Roche (25 & 30),41.88132379,-87.62498015,60604,Landmark,None
 Jewish People's Institute,3500 W Douglas Blvd,1927,2000,Klaber & Grunfeld,41.86325563,-87.71337292,60623,Landmark,None
-(Former) Fullerton State Bank Bldg,1425 W Fullerton Av,,2008,Unknown,41.92494553,-87.66435202,60614,Landmark,None
+(Former) Fullerton State Bank Bldg,1425 W Fullerton Av,1923,2008,Unknown,41.92494553,-87.66435202,60614,Landmark,None
 McGraw-Hill Building,520 N Michigan Av,1928,1997,Thielbar & Fugard,41.89141092,-87.62489269,60611,Landmark,None
 Site of the Sauganash Hotel/Wigwam,Lake St & Wacker Dr; Chicago; IL,1831,2002,Unknown,41.8853654,-87.63647275,60606,Landmark,None
 Samuel M. Nickerson House,40 E Erie St,1883,1977,Burling & Whitehouse,41.89435058,-87.62653379,60611,Landmark,None
@@ -194,7 +194,7 @@ Second Presbyterian Church,1928-1936 S Michigan Av,1874,1977,James Renwick Recon
 (Former) Schlitz Brewery-Tied House,5120 N. Broadway; Chicago; IL,1904,2011,Charles Thisslew,41.97522511,-87.66025837,60640,Landmark,None
 Lorado Taft's Midway Studios,6016 S Ingleside Dr,1890,1993,Arch ?; recon:1929;O F Johnson Add:1964;E D Dart,41.78552641,-87.6032052,60637,Landmark,None
 (Former) Sheridan Trust and Savings Bank Building,4753 N Broadway,1924,2008,Marshall & Fox; Huszagh & Hill,41.96862254,-87.65913012,60640,Landmark,None
-"Pennsylvania 'Eight Track'"" Bridge""",San & Ship Canal; S of 31st & W of Western Av,,2007,Unknown,41.83707881,-87.68759544,60608,Landmark,None
+"Pennsylvania 'Eight Track'"" Bridge""",San & Ship Canal; S of 31st & W of Western Av,1909,2007,Unknown,41.83707881,-87.68759544,60608,Landmark,None
 Uptown Theater,4816 N Broadway,1925,1991,Rapp & Rapp,41.96952571,-87.66019567,60640,Landmark,None
 Eighth Church of Christ; Scientist,4359 S Michigan Av,1911,1993,Leon E. Stanhope,41.81498777,-87.62250788,60653,Landmark,None
 Chicago Harbor Lighthouse,S End of the North Breakwater;N side of Harbor Ent,1893,2003,Unknown,41.88927337,-87.59040947,60611,Landmark,None
@@ -206,10 +206,10 @@ Museum of Science and Industry,57th St and Lake Shore Dr,1891,1995,Charles B. At
 Stephen A. Douglas Memorial,35th St and Cottage Grove Av,1881,1977,Leonard W. Volk,41.83162805,-87.60840332,60653,Landmark,None
 Site of the 1st Self-Sustain Cont. Nuclear Chain,East Side of S Ellis Ave between 56th & 57th St,1942,1971,"Commern. sculpture;'Nuclear Energy'"" Henry Moore""",41.79216212,-87.6008699,60637,Landmark,None
 Fisher Building,343 S Dearborn St,1896,1978,D.H. Burnham & Co. 1907:side add. Peter Weber,41.87719864,-87.62899138,60604,Landmark,None
-(Former) South Side Trust Bank Bldg,4659 S Cottage Grove Av,,2008,Unknown,41.80976635,-87.60611328,60653,Landmark,None
+(Former) South Side Trust Bank Bldg,4659 S Cottage Grove Av,1922,2008,Unknown,41.80976635,-87.60611328,60653,Landmark,None
 Robert Lindblom Technical High Schoool building,6130 S. Wolcott Ave,1917,2010,Arthur F. Hussander,41.78209706,-87.67216458,60636,Landmark,None
 Reliance Building,32 N State St,1890,1975,base:Burham & Root Upper Stor: D.H. Burnham and Co,41.88302856,-87.62824151,60602,Landmark,None
-Dr. Philip Weintraub House,3252 W. Victoria St,,2009,Andrew N. Rebori,41.98593715,-87.7110509,60659,Landmark,None
+Dr. Philip Weintraub House,3252 W. Victoria St,1940,2009,Andrew N. Rebori,41.98593715,-87.7110509,60659,Landmark,None
 Charles D. Iglehart House,11118 S Artesian Av,1857,1994,Architect Unknown,41.69118327,-87.68276849,60655,Landmark,None
 Engine Company 61,5349 S Wabash Av,1927,2003,Charles W. Kallal,41.79669781,-87.62366078,60615,Landmark,None
 Pilgrim Baptist Church,3301 S Indiana Av,1890,1981,Adler & Sullivan,41.83446443,-87.62148251,60616,Landmark,None
@@ -237,7 +237,7 @@ Theurer-Wrigley House,2466 N Lakeview Av,1896,1979,Richard E. Schmidt,41.9275524
 Holy Trinity Orthodox Cathedral and Rectory,1121 N Leavitt St,1903,1979,Louis H. Sullivan,41.9019437,-87.68178871,60622,Landmark,None
 (Former) Schlitz BreweryTied-House@2159 W.Belmont,2159 W. Belmont Ave.,1903,2011,Charles Thisslew,41.9392502,-87.68303313,60618,Landmark,None
 South Side Community Art Center,3831 S Michigan Av,1892,1994,Gustav Hallburg remod:1940;Hin Bredendieck&Lerner,41.82458595,-87.62264066,60653,Landmark,None
-Humboldt Park Receptory Building and Stable,3015 W Divison St,,2008,Unknown,41.90230679,-87.70333639,60622,Landmark,None
+Humboldt Park Receptory Building and Stable,3015 W Divison St,1895,2008,Unknown,41.90230679,-87.70333639,60622,Landmark,None
 Jackson-Thomas House,7053 N Ridge Blvd,1874,1984,Architect Unknown,42.01039242,-87.68192948,60645,Landmark,None
 American School of Correspondence,850 E 58th St,1907,1995,Pond & Pond,41.78975392,-87.60410363,60637,Landmark,None
 Palmer House Hotel,17 E Monroe St,1925,2006,Holabird & Roche,41.88030689,-87.62695422,60603,Landmark,None
@@ -278,7 +278,7 @@ Chicago & North Western Railway Powerhouse,211 N Clinton St,1909,2006,Frost & Gr
 Shoreland Hotel,5454 South Shore Drive,1925,2010,Meyer Fridstein,41.79618792,-87.58146142,60615,Landmark,None
 Page Brothers Building,177-191 N State St,1872,1983,John M. Van Osdel;1902 State St facade:Hill,41.88548876,-87.62758983,60601,Landmark,None
 Henry B Clarke House,1855 S Indiana Av,1836,1970,Unknown,41.85706685,-87.62187159,60616,Landmark,None
-Chicago and Alton Bridge,S Fork of S Branch; N of Archer & E of Ashland,,2007,Unknown,41.83987359,-87.66464137,60608,Landmark,None
+Chicago and Alton Bridge,S Fork of S Branch; N of Archer & E of Ashland,1906,2007,Unknown,41.83987359,-87.66464137,60608,Landmark,None
 Blackstone Hotel,636 S Michigan Ave,1910,1998,Marshall & Fox,41.87335142,-87.62477544,60605,Landmark,None
 Carbide and Carbon Building,230 N Michigan Av,1929,1996,Burnham Brothers; Inc.,41.88652361,-87.62499482,60601,Landmark,None
 All Saints Church and Rectory,4550 N Hermitage Av,1883,1982,John C. Cochrane,41.96494523,-87.67294862,60640,Landmark,None
@@ -291,7 +291,7 @@ Lake-Franklin Group,227-35 W Lake St & 173-91 N Franklin St,1872,1977,Burling & 
 Heyworth Building,29 E Madison st,1904,2000,D.H. Burnham & Co.,41.88185956,-87.62668738,60602,Landmark,None
 Thalia Hall,1215-25 W 18th St,1892,1989,Faber & Pagels,41.85771018,-87.65729386,60608,Landmark,None
 Palmolive Building,919 N Michigan Av,1927,2000,Holabird & Root,41.89977946,-87.62350152,60611,Landmark,None
-St Charles Air Line Bridge,S B Chgo River; N of 16th St & E of Lumber St,,2007,Unknown,41.86092399,-87.63453042,60604,Landmark,None
+St Charles Air Line Bridge,S B Chgo River; N of 16th St & E of Lumber St,1919,2007,Unknown,41.86092399,-87.63453042,60604,Landmark,None
 LaSalle Street Cable Car Powerhouse,500 N LaSalle St,1887,2001,North Chicago Street Railroad Co.,41.89103913,-87.63296226,60654,Landmark,None
 Quinn Chapel,2401 S Wabash Av,1892,1977,Henry F. Starbuck,41.84907304,-87.62507641,60616,Landmark,None
 Peoples Gas-South Chicago Neighborhood Store,8935 S Commercial Av,1925,1996,George Grant Elmslie & Herman V. von Holst,41.73264845,-87.55092055,60617,Landmark,None
@@ -302,7 +302,7 @@ James Charnley House,1365 N Astor st,1891,1972,Adler and Sullivan; Frank Lloyd W
 Beeson House and Coach House,5810 W Midway Park,1892,1999,Frederick Schock,41.88931789,-87.77060811,60644,Landmark,None
 TILT (Together Protect the Community),2100 West Division St,1976,Unknown,John Pitman Weber,41.90325452,-87.67982505,60622,Mural,None
 Sepia,2230 S. Central Park Ave,2016,Unknown,Rahmaan Statik; Max Sansing,41.850922,-87.715009,60623,Mural,None
-Change Makers,3819 Ogden Ave,2006,Unknown,Damon Reed & Moses Ball,,,60623,Mural,Artists: Damon Reed & Moses Ball2005
+Change Makers,3819 Ogden Ave,2006,Unknown,Damon Reed & Moses Ball,41.9172091,-87.6689116,60623,Mural,Artists: Damon Reed & Moses Ball2005
 Unknown,1551 W Homer Street,2018,Unknown,Shawnimals,41.91720864,-87.66683738,60642,Mural,Shawn Smith; creator of Shawnimals and Ninjatown; makes things that inspire and delight people.
 Community Mural,1124-1160 W Ardmore Ave,2016,Unknown,Cara Feeney,41.987298,-87.658921,60660,Mural,City of Chicago granted us rights to use the wall for public art. I have the original documents we filled out granting access to use the wall.
 Make Your Own Luck,1 E Balbo,2015,Unknown,ASVP,41.87298295,-87.62752137,60605,Mural,None
@@ -348,7 +348,7 @@ Looming Large,1140 W Wilson Ave,2020,Unknown,E. LEE,41.9655,-87.65906,60640,Mura
 Peacock,623 S. Wabash,2016,Unknown,Andrea Dunn,41.87390846,-87.62583771,60605,Mural,(Photo Credit: Sandra Steinbrecher) Andrea Dunn is the winner of the 2016 People;s Choice mural. While working on this project Dunn stated; ; The peacock is a symbol of allowing myself to be free and explore abstract shapes; but in a contained space.;-  as quoted in Sandra
 Unknown,1551 W Homer Street,2018,Unknown,Tara McPherson,41.91720864,-87.66683738,60642,Mural,Tara McPherson is an artist based in New York. Creating art about people and their odd ways; her characters seem to exude an idealized innocence with a glimpse of hard earned wisdom in their eyes. Her portraits explore the realms of our psychological states via myths; legends; astronomy; physics; nature; love; loss; childhood and good old life experience. Giving us a peek into the complexities of the human psyche through her otherwordly characters.
 Impossible Meeting,901 S. Michigan,2016,Unknown,Marina Zumi,41.8705633,-87.62399297,60605,Mural,(Photo Credit: Sandra Steinbrecher) Marina Zumi is most associated with the early street art scene and her work with one of the formative groups ;Expression Sessions; in Buenos Aires. Zumi came to street art from a fashion design background which has contributed to the development of a unique style that is colorful and feminine.  While working on this project Zumi stated;  ;My motivation comes in my daily life. I try to reflect human behavior through natural and animal scenes; ;  as quoted in Sandra Steinbrecher;s Wabash Arts Corridor / Big Walls / 2016
-Hyde Park Art Panels,5300 South Shore Dr,2009,Unknown,Burroughs; Evans; Himmelfarb; & Jones,,,60615,Mural,Artists: Burroughs; Evans; Himmelfarb; & Jones. 2009. CPAG oversaw the production and installation of 18 large format digital prints from the four Artists. The panels are located at the underpasses of 53rd and 55th in Hyde Park. The picture below is of two panels by Artist Margaret Burroughs. From 2009
+Hyde Park Art Panels,5300 South Shore Dr,2009,Unknown,Burroughs; Evans; Himmelfarb; & Jones,41.7993759,-87.5851313,60615,Mural,Artists: Burroughs; Evans; Himmelfarb; & Jones. 2009. CPAG oversaw the production and installation of 18 large format digital prints from the four Artists. The panels are located at the underpasses of 53rd and 55th in Hyde Park. The picture below is of two panels by Artist Margaret Burroughs. From 2009
 Logan,2827 N Spaulding Ave,2019,Unknown,Justus Roe,41.93284869,-87.70973589,60618,Mural,abstract landscape painting
 Together We Fly Higher,2406 South Central Park Ave,2017,Unknown,Chema Skandal,41.84777119,-87.71503378,60623,Mural,This mural was created by Yollocalli Public Art interns with Chema Skandal For Cardenas School in the summer of 2017.
 Las Puertas de Paseo Boricua,2517 West Division St,2017,Unknown,Missy Rosa,41.90287692,-87.69018293,60622,Mural,Las Puertas de Paseo Boricua; organized by Sam Kirk; is a celebration of contemporary Latino culture in Chicago. Partnering with the Illinois Puerto Rican Cultural Center; Kirk sought out street-level doorways on Division street as new sites for public artwork; to increase the visibility of Latino culture in Humboldt Park. Kirk selected 13 Artists to create new works that explore indigenous tribes; ancestry; cultural characters; music; scenic references; cross-cultural identities; and pride.
@@ -384,7 +384,7 @@ Positive Moves in the Game of Life,3942 West North Ave,1988,Unknown,Concetta Mor
 Las Puertas de Paseo Boricua,2546 West Division St,2017,Unknown,Jenny Q.,41.90308512,-87.69129673,60622,Mural,Las Puertas de Paseo Boricua; organized by Sam Kirk; is a celebration of contemporary Latino culture in Chicago. Partnering with the Illinois Puerto Rican Cultural Center; Kirk sought out street-level doorways on Division street as new sites for public artwork; to increase the visibility of Latino culture in Humboldt Park. Kirk selected 13 Artists to create new works that explore indigenous tribes; ancestry; cultural characters; music; scenic references; cross-cultural identities; and pride.
 Reaching Back; Moving Forward; Lest We Forget the Song of 47th St,1306 East 47th St,2009,Unknown,Carolyn Elaine and John Pitman Weber,41.80977529,-87.59473652,60653,Mural,"Artist Carolyn Elaine and John Pitman Weber. 2009. This mosiac mural was created to represent and enrich the history of the Hyde Park/Bronzeville area. The mural urges people to know their history: 'Know; Learn; Read'"". Through the use of Adinkra and Native American symbols the mural promotes a message of the importance of history; peace; and tranquility. From 2009"""
 Flight Patterns,3410 North Southport Ave,2018,Unknown,Chris Silva with Yollocalli,41.94375528,-87.66407359,60657,Mural,Flight Patterns was done in collaboration with young Artists from Yollocalli Arts Reach. Our Yollocalli team created stencil designs; assisted in making on the fly color decisions; and helped to get everything painted while amping up the overall enjoyment factor of producing this vibrant piece of public art.
-Tierra,Road viaduct wall; on W Montrose Ave; under LSD,2019,Unknown,Tony Passero,41.962039,,60630,Mural,None
+Tierra,Road viaduct wall; on W Montrose Ave; under LSD,2019,Unknown,Tony Passero,41.962039,-87.7411976,60630,Mural,None
 Abrazando La Vida/Embracing Life,1615 West Chicago Ave,2017,Unknown,Miguel A. Del Real,41.89595361,-87.66790007,60622,Mural,This mural’s positive symbolism; coupled with the strong use of primary colors; intends to bring a reflective energy to the location as a reminder to balance our mind; matter; and soul.
 Letter Q,1850 N Elston Ave,2019,Unknown,Marry Tonnu,41.91604997,-87.66628047,60642,Mural,None
 Alpha Omega,5500 n Ashland,2013,Unknown,Justus Roe,41.98169128,-87.6699157,60640,Mural,abstract landscape painting
@@ -445,9 +445,9 @@ We Own The Future,916 S Wabash,2014,Unknown,Shepard Fairey,41.87004169,-87.62604
 Black Women Emerging,4112 South Cottage Grove Ave,1977,Unknown,Justine Presha' DeVan,41.81992522,-87.60693771,60653,Mural,Artist Justine Presha' DeVan. 1977. Black Women Emerging is a mural dedicated to African-American women; many female community members; young and old; helped prime and paint the mural. From 1977
 RORA,536 West Erie St,1999,Unknown,Ginny Sykes,41.89399188,-87.64284995,60654,Mural,"(At Erie St and the Chicago River). 1999. Artist Ginny Sykes. The title of this two part mosaic is Rora; a Potowami word that means 'confluence'"". This abstracted mosaic represents the past; present; and future of the Chicago River and its relationship with the City. From 1999"""
 The Great Wall of Chicago,8701 South Vincennes Ave,2018,Unknown,Rahmaan Statik,41.736157,-87.645218,60620,Mural,In The Great Wall of Chicago; Statik situates portraits of Auburn Gresham residents in an environment that is both local and cosmic. Improving oneself and one’s community is a central and unifying theme.
-Garfield Park Conservatory Alliance Mosaic,N Hamlin Ave and Lake St,2007,Unknown,Mirtes Zwierzynski,,,60624,Mural,None
+Garfield Park Conservatory Alliance Mosaic,N Hamlin Ave and Lake St,2007,Unknown,Mirtes Zwierzynski,41.8851461,-87.7231065,60624,Mural,None
 Wall of Hope,1856 South Loomis,2010,Unknown,"Jesus 'Chucho'"" Rodriguez""",41.85615719,-87.66141803,60608,Mural,"Yollocalli students; along with Chucho created a powerful a mural titled; 'Wall of Hope'"" for the local Pilsen organization; San Jose Obrero Mission. The mural displays awareness and commitment to the community."""
-I Will...,4730 North Sheridan Rd,Unknown,Unknown,Tracy Van Duinen,41.96813738,-87.65495695,60640,Mural,Artist: Tracy Van Duinen Assitant: Todd Osborne the images that make up the macro design reveal what takes place at the agency. This includes the psychiatric; social work; hip hop workshops; tech center; art and circus acrobatics programs. The figures are tracing from photographs taken from around the agency. The supporting text that surrounds these images competes their meaning. The words were collected from people working at every level from board members to the youth. The words also complete the title of the mural; I will... mentor; choose; grow; create; respect; inspire; etc.
+I Will...,4730 North Sheridan Rd,2006,Unknown,Tracy Van Duinen,41.96813738,-87.65495695,60640,Mural,Artist: Tracy Van Duinen Assitant: Todd Osborne the images that make up the macro design reveal what takes place at the agency. This includes the psychiatric; social work; hip hop workshops; tech center; art and circus acrobatics programs. The figures are tracing from photographs taken from around the agency. The supporting text that surrounds these images competes their meaning. The words were collected from people working at every level from board members to the youth. The words also complete the title of the mural; I will... mentor; choose; grow; create; respect; inspire; etc.
 City Mindset,1265 W Wilson Ave,2020,Unknown,A Zak,41.96525,-87.66192,60640,Mural,None
 Wagnolia Beach,4600 N Magnolia Ave,2019,Unknown,Caroline Brown,41.96543519,-87.66117219,60640,Mural,None
 Becoming,4400 West Roscoe St,2017,Unknown,Northwest Arts Connection with AnySquared Projects Tracy Kostenbader; Rosa Pineda; and Holiday Gerry,41.94271413,-87.73722091,60641,Mural,Part of the 30th Ward is a former industrial corridor that is becoming residential. The Artists who created these murals responded to the question; “What does urban renewal or urban evolution mean to this area?”
@@ -459,7 +459,7 @@ Belmont & Kedzie,3141-3199 n. Kedzie,2013,Unknown,Justus Roe,41.93872608,-87.707
 reckless behavior,1601 W. Chicago Ave; Chicago IL 60622,2017,Unknown,Persue,41.89596285,-87.6673493,60622,Mural,mural
 Passage of souls,2598 S Ridgeway Ave,2015,Unknown,Jay Jasso,41.84442031,-87.71860171,60623,Mural,Colorful indigenus style mural made with paint a journey from the living to the atler world with skulls.
 King of Peace,5804–5856 South Damen Ave,2018,Unknown,Cyd Smillie with Arts Alive Chicago,41.7882892,-87.67428131,60636,Mural,Cyd Smillie worked with Henderson Elementary students and faculty on the theme of peace for two corresponding murals on the walls of the Damen underpass—Messages on the east side; and King of Peace on the west side. King of Peace was designed by Henderson Elementary art teacher Darrell Pulliam; while Cyd Smillie designed Messages with the Henderson students.
-63rd and Infinity,833 West 63rd St,Unknown,Unknown,Max Sansing,41.77962053,-87.6461237,60621,Mural,In creating the mural with spray paint for Boombox Englewood; Matt Sansing has depicted a silhouette of a different Chicago skyline; featuring elements within the surrounding blocks in Englewood. This location is one of four Boombox installations across the city managed by Latent Design. This project was realized in partnership with the People Plazas program of the Chicago Department of Transportation’s Make Way for People initiative; and the Department of Planning and Development’s Retail Thrive Zone program.
+63rd and Infinity,833 West 63rd St,2012,Unknown,Max Sansing,41.77962053,-87.6461237,60621,Mural,In creating the mural with spray paint for Boombox Englewood; Matt Sansing has depicted a silhouette of a different Chicago skyline; featuring elements within the surrounding blocks in Englewood. This location is one of four Boombox installations across the city managed by Latent Design. This project was realized in partnership with the People Plazas program of the Chicago Department of Transportation’s Make Way for People initiative; and the Department of Planning and Development’s Retail Thrive Zone program.
 Re:Thinking,5299 W Ainslie Street,2014,Unknown,Cyd Smillie,41.96912057,-87.75960758,60630,Mural,Painted mural on the north wall of Up/Metra underpass. It features a figure in blue with bobbles emanating from the head. Inside 30 of the bubbles are ;science; images. As the mural extends outward from the center at both ends there is some digital code and finally the universe. This mural was funded by local businesses and painted with the help of community residence.
 Letter P,1765 N Elston Ave,2019,Unknown,Marry Tonnu,41.91474261,-87.66497833,60642,Mural,None
 Mother Nature,2712 South Sawyer Ave,2017,Unknown,Chema Skandal,41.84224508,-87.706336,60623,Mural,This mural was created by Yollocalli Public Art Interns along with teaching Artists Chema Skandal and Joseph J. Mora. The mural depicts a girl surrounded by greenery and patterns; bringing life to the wall.
@@ -542,7 +542,7 @@ Grow and Flow,1319 W Wilson Avenue,2020,Unknown,Molly Z,41.9652373,-87.6633694,6
 untitled,25 E Monroe St,2017,Unknown,Rojo,41.88066939,-87.62680815,60603,Mural,This mural was created for ACTIVATE: a project of the Chicago Loop Alliance Foundation.
 Who Do You Love?,72 E. 11th Street,2016,Unknown,Tarachy,41.86940381,-87.62483711,60605,Mural,(Photo Credit: Sandra Steinbrecher) While working on this project Tararchy stated; ;The images of people at peace; in yoga poses; are meant to inspire and suggest peace. The snake is a rich symbol in our collective unconscious and is meant as a reminder of our ;dark-side;-  as quoted in Sandra Steinbrecher;s Wabash Arts Corridor / Big Walls / 2016
 "'Take off'""""",1857 W Chicago Ave,2018,Unknown,Bunny!XLV (AKA James Nienhuis),41.89584436,-87.67441024,60622,Mural,Mural titled ;Take Off; commissioned by property owner to add to the already colorful stretch of Chicago Avenue in Ukranian Village. The elephant is as a symbol of good luck. Also; a nod to Save The Elephant.
-Home of the Heart,2801 South Ridgeway,Unknown,Unknown,REMED,41.84057466,-87.71820602,60623,Mural,None
+Sailing to the Home of the Heart,2801 South Ridgeway,2012,Unknown,REMED,41.84057466,-87.71820602,60623,Mural,None
 rise & shine,1760 W. Chicago Ave; Chicago IL 60622,2016,Unknown,Collaboration: Lie and Lucx,41.89610267,-87.67211595,60622,Mural,mural
 Under City stone,5506 South Lake Park Ave,1972,Unknown,Carol Yasko,41.79493407,-87.58773626,60637,Mural,None
 Your Place or Mime?,251 N. Garland Court,2019,Unknown,Afrokilla,41.88649773,-87.6251595,60601,Mural,"This mural is dedicated to '2019 Year of Chicago Theatre'"" depicting two mimes that each represent happy and sad emotions through theatre. The skull is a representation of spiritual connectivity; a signature mark by Chicago artist; Afrokilla. This mural was created for ACTIVATE: a project of the Chicago Loop Alliance Foundation."""
@@ -577,7 +577,7 @@ Las Puertas de Paseo Boricua,2448 West Division St,2017,Unknown,Lebster Pabon,41
 China Truborn,1312 S. Michigan,2017,Unknown,Louise ;Ouizi; Chen,41.86537627,-87.62425345,60605,Mural,(Photo Credit: Sandra Steinbrecher)
 Altered Translation,2912 N. Milwaukee Avenue,2017,Unknown,James Jankowiak,41.93402709,-87.71576662,60618,Mural,None
 Neighborhood Renewed,4520 West Addison St,2017,Unknown,Northwest Arts Connection with Ken R. Klopack,41.9463173,-87.74025468,60641,Mural,Part of the 30th Ward is a former industrial corridor that is becoming residential. The Artists who created these murals responded to the question; “What does urban renewal or urban evolution mean to this area?”
-Couch Place,100 w. Couch Pl,2016,Unknown,Justus Roe,,,60601,Mural,abstract landscape painting
+Couch Place,100 w. Couch Pl,2016,Unknown,Justus Roe,41.8851018,-87.6316664,60601,Mural,abstract landscape painting
 M.A.G.I.C.,1200 East 61st St,2006,Unknown,Damon Reed,41.78427743,-87.5962122,60637,Mural,None
 Peregrine Falcon,1708 W. Chicago Ave; Chicago IL 60622,2019,Unknown,Justin Suarez,41.89613654,-87.6701092,60622,Mural,mural
 Historic Pullman Mural,480 East 111th St,2017,Unknown,Rahmaan Statik,41.69287446,-87.61037058,60628,Mural,On both sides of the viaduct below the Metra commuter train tracks; the history of the planned community of Pullman is laid out in a series of scenes. Designed by Rahmaan Statik; the Historic Pullman Mural was executed with the help of local high school students.
