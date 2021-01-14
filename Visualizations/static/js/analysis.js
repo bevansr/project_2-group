@@ -1,5 +1,6 @@
 // histogram chart
-var dataPath = 'https://raw.githubusercontent.com/bevansr/project_2-group/Rice/Rice/ChicagoLandmarks2.csv';
+// var dataPath = 'https://raw.githubusercontent.com/bevansr/project_2-group/Rice/Rice/ChicagoLandmarks2.csv';
+var dataPath = 'https://raw.githubusercontent.com/bevansr/project_2-group/main/Visualizations/static/data/ChicagoLandmarks2.csv';
 
 d3.csv(dataPath, function (data) {
   console.log("csv", data);
