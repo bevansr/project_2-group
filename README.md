@@ -1,7 +1,7 @@
 # Analysis of Chicago Murals and Landmarks
 
 ![App Running](images/app.gif "Webpage Running")
-
+![App Running](images/tableau_dashboard.gif "Tableau Dashboard Running")
 
 ## Project Description
 
@@ -19,7 +19,9 @@ The goal of the project is to analyze the installation and distributions of both
 </div>
 
 ### Design Sketch
-<img src="images/sketch.jpg">
+<img src="images/sketch.png">
+<img src="images/tableau_sketch.png">
+
 
 ## Instructions
 
@@ -39,7 +41,7 @@ The goal of the project is to analyze the installation and distributions of both
 * Contains the HTML code that drives the plots and references the required libraries
 * The static folder contains 
   * the css folder with the formatting `CSS` information 
-  * the data folder with the murals/landmarks data and boundary data used to plot
+  * the data folder with the murals/landmarks data and boundary data used to make plot
   * the html folder with the other three map/analysis/chart `HTML` files.
   * the js folder with `js` files to drive webpages
   * the image folder with icons and background images
@@ -48,7 +50,7 @@ The goal of the project is to analyze the installation and distributions of both
 
 * Contains the `docx` file for data cleaning instruction
 * Contains the `SQL` and `ipynb` files used for data cleaning 
-* Contains the final `ChicagoLandmarks2.csv` file with cleaned data
+* Contains the `ChicagoLandmarks2.csv` file with uncleaned data
 
 ### 3. Resources
 
