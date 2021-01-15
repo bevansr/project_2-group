@@ -1,8 +1,13 @@
 # Analysis of Chicago Murals and Landmarks
 
-![App Running](images/app.gif "Webpage Running")
-![App Running](images/tableau_dashboard.gif "Tableau Dashboard Running")
+Webpage Running
 
+![App Running](images/app.gif "Webpage Running")
+
+Tableau Dashboard
+
+![App Running](images/tableau_dashboard.gif "Tableau Dashboard Running")
+[Landmarks and Murals in Chicago - Tableau Dashboard](https://public.tableau.com/profile/jiaping3168#!/vizhome/LandmarksandMuralsinChicago3/Dashboard)
 ## Project Description
 
 The goal of the project is to analyze the installation and distributions of both murals and landmarks in Chicago to provide better tourism tools to explore Chicago.  The `D3.js`, `Plotly.js` `Leaflet` libraries was used to allow interaction in addition to `HTML`, `CSS`, `Bootstrap`, and `Javascript`.
@@ -18,9 +23,11 @@ The goal of the project is to analyze the installation and distributions of both
 <img src="images/analysis_1.png" width="400"> <img src="images/search.png" width="400">
 </div>
 
+
+
 ### Design Sketch
-<img src="images/sketch.png">
-<img src="images/tableau_sketch.png">
+<img src="images/sketch.jpg">
+<img src="images/tableau_sketch.jpg">
 
 
 ## Instructions
