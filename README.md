@@ -67,3 +67,15 @@ The goal of the project is to analyze the installation and distributions of both
 ### 4. imagess
 
 * Contains the `gif`, `png`, `png` files showing the running webpage and our primary design sketch
+
+Group Contributors:
+
+[Jiaping Shen](https://github.com/choushuiguo325)
+
+[Bryan Evans](https://github.com/bevansr)
+
+[Laura Rice](https://github.com/LRiceBall)
+
+[Daniel Karpowicz](https://github.com/DanielKarpowicz)
+
+Ashley Kerber
