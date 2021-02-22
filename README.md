@@ -10,7 +10,7 @@ Tableau Dashboard
 [Landmarks and Murals in Chicago - Tableau Dashboard](https://public.tableau.com/profile/jiaping3168#!/vizhome/LandmarksandMuralsinChicago3/Dashboard)
 ## Project Description
 
-The goal of the project is to analyze the installation and distributions of both murals and landmarks in Chicago to provide better tourism tools to explore Chicago.  The `D3.js`, `Plotly.js` `Leaflet` libraries was used to allow interaction in addition to `HTML`, `CSS`, `Bootstrap`, and `Javascript`.
+The goal of the project is to analyze the installation and distributions of both murals and landmarks in Chicago to provide better tourism tools to explore Chicago.  The `D3.js`, `Plotly.js` `Leaflet` libraries were used to allow interaction in addition to `HTML`, `CSS`, `Bootstrap`, and `Javascript`.
 
 
 * All the project files are contained in this repo.
@@ -47,11 +47,11 @@ The goal of the project is to analyze the installation and distributions of both
 
 * Contains the HTML code that drives the plots and references the required libraries
 * The static folder contains 
-  * the css folder with the formatting `CSS` information 
-  * the data folder with the murals/landmarks data and boundary data used to make plot
-  * the html folder with the other three map/analysis/chart `HTML` files.
-  * the js folder with `js` files to drive webpages
-  * the image folder with icons and background images
+  * the `css` folder with the formatting `CSS` information 
+  * the `data` folder with the murals/landmarks data and boundary data used to make plot
+  * the `html` folder with the other three map/analysis/chart `HTML` files.
+  * the `js` folder with `js` files to drive webpages
+  * the `image` folder with icons and background images
 
 ### 2. Rice
 
