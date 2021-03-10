@@ -8,14 +8,25 @@ Tableau Dashboard
 
 ![App Running](images/tableau_dashboard.gif "Tableau Dashboard Running")
 [Landmarks and Murals in Chicago - Tableau Dashboard](https://public.tableau.com/profile/jiaping3168#!/vizhome/LandmarksandMuralsinChicago3/Dashboard)
+
 ## Project Description
 
-The goal of the project is to analyze the installation and distributions of both murals and landmarks in Chicago to provide better tourism tools to explore Chicago, using interactive web pages and Tableau dashboard.  The `D3.js`, `Plotly.js` `Leaflet` libraries were used to allow interaction in addition to `HTML`, `CSS`, `Bootstrap`, and `Javascript`.
+The goal of the project is to analyze the installation and distributions of 600+ murals and landmarks in Chicago to provide better tourism tools to explore Chicago, using interactive web pages and Tableau dashboard.  
 
+Data Resources
+* Landmarks data: [Chicago Data Portal - Individual Landmarks](https://data.cityofchicago.org/Historic-Preservation/Individual-Landmarks/tdab-kixi)
+* Murals data: [Chicago Data Portal - Mural Registry](https://data.cityofchicago.org/Historic-Preservation/Mural-Registry/we8h-apcf)
 
+Languages/Tools
+* `Python`: Pandas, NumPy, Matplotlib, SQLAlchemy
+* SQL
+* HTML/CSS
+* JavaScript: Leaflet, D3, Plotly
+* Tableau
+* GitHub Pages
+* Excel
 
-* Data Resources: [Chicago Data Portal - Individual Landmarks](https://data.cityofchicago.org/Historic-Preservation/Individual-Landmarks/tdab-kixi); 
-[Chicago Data Portal - Mural Registry](https://data.cityofchicago.org/Historic-Preservation/Mural-Registry/we8h-apcf)
+PS
 * All the project files are contained in this repo
 
 
