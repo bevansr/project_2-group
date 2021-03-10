@@ -14,7 +14,7 @@ The goal of the project is to analyze the installation and distributions of both
 
 
 * All the project files are contained in this repo
-* Data Resources: [Chicago Data Portal - Individual Landmarks](https://data.cityofchicago.org/Historic-Preservation/Individual-Landmarks/tdab-kixi)
+* Data Resources: [Chicago Data Portal - Individual Landmarks](https://data.cityofchicago.org/Historic-Preservation/Individual-Landmarks/tdab-kixi); 
 [Chicago Data Portal - Mural Registry](https://data.cityofchicago.org/Historic-Preservation/Mural-Registry/we8h-apcf)
 
 
