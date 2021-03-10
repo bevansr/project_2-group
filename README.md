@@ -18,7 +18,7 @@ Data Resources
 * Murals data: [Chicago Data Portal - Mural Registry](https://data.cityofchicago.org/Historic-Preservation/Mural-Registry/we8h-apcf)
 
 Languages/Tools
-* `Python`: Pandas, NumPy, Matplotlib, SQLAlchemy
+* Python: Pandas, NumPy, Matplotlib, SQLAlchemy
 * SQL
 * HTML/CSS
 * JavaScript: Leaflet, D3, Plotly
