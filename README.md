@@ -13,7 +13,9 @@ Tableau Dashboard
 The goal of the project is to analyze the installation and distributions of both murals and landmarks in Chicago to provide better tourism tools to explore Chicago.  The `D3.js`, `Plotly.js` `Leaflet` libraries were used to allow interaction in addition to `HTML`, `CSS`, `Bootstrap`, and `Javascript`.
 
 
-* All the project files are contained in this repo.
+* All the project files are contained in this repo
+* Data Resources: [Chicago Data Portal - Individual Landmarks](https://data.cityofchicago.org/Historic-Preservation/Individual-Landmarks/tdab-kixi)
+[Chicago Data Portal - Mural Registry](https://data.cityofchicago.org/Historic-Preservation/Mural-Registry/we8h-apcf)
 
 
 ### Sample Webpage Screenshot
@@ -75,6 +77,8 @@ Group Contributors:
 [Bryan Evans](https://github.com/bevansr)
 
 [Laura Rice](https://github.com/LRiceBall)
+
+[Carol Schiro](https://github.com/carolschiro)
 
 [Daniel Karpowicz](https://github.com/DanielKarpowicz)
 
